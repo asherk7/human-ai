@@ -1,0 +1,8 @@
+arm,n,executed,delta,lo,hi,n_clu,on_task,trunc,carries_effect
+nat_residual,120,0.767,0.758,0.642,0.867,20,0.34,0.0,False
+axis (from the grid),120,0.433,0.425,0.275,0.575,20,0.68,0.0,True
+mn_pc1,120,0.125,0.117,0.042,0.208,20,0.92,0.0,True
+nat_pc1,120,0.108,0.1,0.025,0.183,20,0.94,0.0,True
+mn_random,120,0.0,-0.008,-0.025,0.0,20,1.0,1.0,False
+mn_residual,120,0.0,-0.008,-0.025,0.0,20,1.0,1.0,False
+mn_residual_alt,120,0.0,-0.008,-0.025,0.0,20,1.0,1.0,False

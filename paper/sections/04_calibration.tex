@@ -1,0 +1,60 @@
+\section{What projection measures and steering changes}
+\label{sec:calibration}
+
+\subsection{Register dominates the readout}
+
+On Gemma 3 4B, the axis contains an identity signal, but writing register
+has a larger effect on the projections. We create four conditions by
+combining human or AI identity with warm or formal writing. Across these
+conditions, register shifts the layer-33 projection about three times as far
+as identity ($+337$ vs. $+114$; Table~\ref{tab:register2x2} in
+Appendix~\ref{app:register2x2factorial}). A formal response with no identity
+claim reaches $+299$ points, farther AI-ward than the formal AI condition
+($+265$). The extreme instructions partly break character in the human
+conditions, so the 3:1 register-to-identity ratio is an upper bound.
+
+Register nevertheless defines a different direction. Removing the register
+direction leaves 87\% of the axis norm at both readout layers, and
+identity-classification AUC barely drops at layer 33, from 92.6\% to 91.1\%
+(Appendix~\ref{app:register2x2}). A sparse-autoencoder readout
+\citep{bricken2023monosemanticity, templeton2024scaling} shows partial
+feature-level overlap with register at layers 27 and 29; the layer-33
+dictionary is unusable (Appendix~\ref{app:sae}). Register directions can themselves steer
+\citep{konen2024style}, so we rely on matched-register comparisons and
+behavioral intervention, rather than projection magnitude alone, to
+interpret the axis.
+
+\subsection{The steering effect is not reducible to register}
+
+A register-confounded projection does not imply that axis steering is
+reducible to register. At the steering layer, the axis is nearly collinear
+with register (cosine 0.980) and PC1 ($\sim$0.98,
+Appendix~\ref{app:register2x2decomp}). The layer-13 cosine should be read
+with caution (Section~\ref{sec:axis}). Steering with a matched-norm register
+direction also crosses the identity midpoint on the 10 held-out questions,
+so geometry alone cannot determine what steering changes
+(Appendix~\ref{app:register2x2}). To see whether steering's effect comes
+from register or from the rest of the axis, we decompose it into components
+parallel and orthogonal to a given direction \citep{arditi2024refusal},
+doing this separately for PC1 and for register, and test all four resulting
+components on prompt-injection execution (Section~\ref{sec:injection}) and
+agentic prose length.
+
+The register-parallel component contains 98\% of the axis norm at layer 13,
+yet prompt-injection execution remains at baseline across doses, a measured
+null. By contrast, the much smaller register-orthogonal component increases
+execution with dose (supporting but not decisive evidence); a
+norm-matched full register direction also remains at baseline. Within this
+tested register-direction evaluation, the behavioral effect of axis steering
+is therefore not explained by writing register (Table~\ref{tab:arms} and
+Figure~\ref{fig:calibration}b, Appendix~\ref{app:register2x2decomp}).
+
+PC1 gives a less clean decomposition: the PC1-parallel component has a
+measurable effect, and at matched median prose the PC1-orthogonal component can produce more
+execution than the full axis, though this comparison is post hoc and depends on how PC1 is estimated
+(Figure~\ref{fig:calibration}c, Appendix~\ref{app:register2x2decomp}). PC1
+therefore carries part, but not all, of the steering effect. The refusal-overlap
+mechanism proposed by \citet{li2026pitfalls} fails our single-vector raw and
+PC1-separated geometric tests; no causal ablation was run (Appendix~\ref{app:refusal}).
+Within this one-model, one-layer specificity check, identity remains the best-supported
+interpretation of what steering changes.

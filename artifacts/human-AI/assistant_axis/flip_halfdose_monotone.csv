@@ -1,0 +1,13 @@
+steer,read,layer,monotone_halfdose,n
+ours,ours,27,3,10
+ours,ours,33,6,10
+ours,recipe,27,1,10
+ours,recipe,33,3,10
+recipe,ours,27,2,10
+recipe,ours,33,6,10
+recipe,recipe,27,2,10
+recipe,recipe,33,6,10
+random,ours,27,0,10
+random,ours,33,0,10
+random,recipe,27,2,10
+random,recipe,33,0,10

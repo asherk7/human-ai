@@ -1,0 +1,43 @@
+{
+ "model": "qwen",
+ "model_id": "Qwen/Qwen2.5-7B-Instruct",
+ "readout_layer": 19,
+ "companion_layer": 23,
+ "role_auc_readout": 0.5620126641896489,
+ "role_auc_companion": 0.5691558951279501,
+ "role_swap_readout_pts": -2.82737820534102,
+ "role_swap_companion_pts": 6.7796551444242255,
+ "lens_ai_pole": "buflen | \u5b5c | \u560f | misunder | @$_ | jured | \u515a\u7684\u5341 | disadv",
+ "lens_human_pole": "\u043f\u0440\u043e\u0432\u0435\u0434\u0435\u043d | VRT | Unterst\u00fct | \ud330 | imageName | \u5658 | \u6485 | lokale",
+ "cohens_d_readout": 1.6955375671386719,
+ "cos_pc1_readout": 0.6598827838897705,
+ "axis_kept_readout": 0.7513685590480124,
+ "friend_mode_is_most_human": false,
+ "refusal_minus_benign_pts": 40.383163582134856,
+ "formal_is_nearest_zero": false,
+ "heat_ai_para_pts": 108.5645063772014,
+ "heat_human_para_pts": 16.911704193778963,
+ "heat_neutral_news_pts": -86.94862200992291,
+ "heat_ordered": false,
+ "content_confound": true,
+ "eval_null_replicates": false,
+ "eval_null_aucs": {
+  "8": 0.539,
+  "19": 0.7,
+  "23": 0.649
+ },
+ "identity_bleed_pts": 54.737662459424506,
+ "identity_bleed_ci": [
+  38.3,
+  72.3
+ ],
+ "identity_bleed_replicates": true,
+ "identity_bleed_companion_pts": 60.54961189455654,
+ "identity_bleed_companion_ci": [
+  43.2,
+  78.5
+ ],
+ "segment_final_minus_cot_pts": 26.000738153512224,
+ "segment_n_items": 8,
+ "suite_minutes": 9.0
+}

@@ -1,0 +1,12 @@
+{
+ "model": "qwen",
+ "readout": 19,
+ "claude_named_of_24": 12,
+ "own_name_of_24": 0,
+ "topic_corrected_shift_pts": -9.7,
+ "topic_corrected_ci": [
+  -28.6,
+  12.9
+ ],
+ "spec_captures_chatgpt_of_24": 0
+}

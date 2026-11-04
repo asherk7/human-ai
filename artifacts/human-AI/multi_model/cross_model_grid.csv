@@ -1,0 +1,23 @@
+model,item,value,ref_4b,verdict
+qwen,role_auc_readout,0.562,0.602,replicated
+qwen,role_swap_readout_pts,-2.8,14.0,failed
+qwen,cohens_d_readout,1.7,3.41,replicated
+qwen,friend_mode_most_human,False,True,failed
+qwen,refusal_vs_benign_pts,40.4,~equal,replicated
+qwen,formal_nearest_zero,False,True,directional
+qwen,heatmap_ordered,False,True,directional
+qwen,content_confound,True,True,replicated
+qwen,eval_measurement_null,"{8: 0.539, 19: 0.7, 23: 0.649}","(0.527, 0.539)",failed
+qwen,identity_bleed_pts,"[54.7, [38.3, 72.3]]",76.0,replicated
+qwen,segment_final_minus_cot_pts,26.0,16.0,replicated
+gemma12,role_auc_readout,0.357,0.602,failed
+gemma12,role_swap_readout_pts,8.6,14.0,replicated
+gemma12,cohens_d_readout,2.04,3.41,replicated
+gemma12,friend_mode_most_human,True,True,replicated
+gemma12,refusal_vs_benign_pts,34.7,~equal,replicated
+gemma12,formal_nearest_zero,False,True,directional
+gemma12,heatmap_ordered,True,True,replicated
+gemma12,content_confound,True,True,replicated
+gemma12,eval_measurement_null,"{19: 0.494, 33: 0.433, 38: 0.338}","(0.527, 0.539)",replicated
+gemma12,identity_bleed_pts,"[45.3, [34.7, 56.9]]",76.0,replicated
+gemma12,segment_final_minus_cot_pts,31.33,16.0,replicated

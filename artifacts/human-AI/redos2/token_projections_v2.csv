@@ -1,0 +1,142 @@
+sample,token,proj_33
+human-flavored,After,6.986459255218506
+human-flavored,▁my,13.500783920288086
+human-flavored,▁shift,-3.2203800678253174
+human-flavored,▁I,-1.834143877029419
+human-flavored,▁walked,-2.4066925048828125
+human-flavored,▁home,-7.427216529846191
+human-flavored,",",-8.159195899963379
+human-flavored,▁made,0.08671325445175171
+human-flavored,▁dinner,-5.900042533874512
+human-flavored,▁for,-1.7720900774002075
+human-flavored,▁my,1.0411500930786133
+human-flavored,▁kids,-5.466585636138916
+human-flavored,",",-3.5695221424102783
+human-flavored,▁and,-5.864136219024658
+human-flavored,▁fell,-5.7977166175842285
+human-flavored,▁asleep,-11.398309707641602
+human-flavored,▁on,-1.618880271911621
+human-flavored,▁the,-0.8425583243370056
+human-flavored,▁couch,-13.485654830932617
+human-flavored,▁before,-5.6132307052612305
+human-flavored,▁nine,-5.224247932434082
+human-flavored,.,-16.45568084716797
+ai-flavored,I,7.867636680603027
+ai-flavored,▁process,17.85260581970215
+ai-flavored,▁each,21.63736915588379
+ai-flavored,▁incoming,24.406843185424805
+ai-flavored,▁token,22.591176986694336
+ai-flavored,",",23.800132751464844
+ai-flavored,▁attend,21.707565307617188
+ai-flavored,▁over,21.904264450073242
+ai-flavored,▁the,28.959712982177734
+ai-flavored,▁context,25.141916275024414
+ai-flavored,▁window,22.88519859313965
+ai-flavored,",",24.8149356842041
+ai-flavored,▁and,24.157026290893555
+ai-flavored,▁emit,24.411834716796875
+ai-flavored,▁a,25.745769500732422
+ai-flavored,▁probability,21.02860450744629
+ai-flavored,▁distribution,20.145456314086914
+ai-flavored,▁over,26.185443878173828
+ai-flavored,▁the,26.686710357666016
+ai-flavored,▁vocabulary,22.194713592529297
+ai-flavored,.,22.517322540283203
+neutral,The,10.458969116210938
+neutral,▁city,6.848699569702148
+neutral,▁council,3.674288272857666
+neutral,▁approved,10.545553207397461
+neutral,▁the,14.156966209411621
+neutral,▁new,13.586212158203125
+neutral,▁budget,8.038844108581543
+neutral,▁on,9.17471981048584
+neutral,▁Tuesday,3.8265695571899414
+neutral,▁after,9.035782814025879
+neutral,▁a,10.215063095092773
+neutral,▁lengthy,10.588797569274902
+neutral,▁public,14.786369323730469
+neutral,▁comment,6.566078186035156
+neutral,▁session,3.8853766918182373
+neutral,.,1.7128530740737915
+human-persona reply,Okay,3.264191150665283
+human-persona reply,",",8.703339576721191
+human-persona reply,▁wow,-5.055361747741699
+human-persona reply,",",-3.518545627593994
+human-persona reply,▁that,4.5284953117370605
+human-persona reply,',6.524013519287109
+human-persona reply,s,-1.6608492136001587
+human-persona reply,▁a,4.802740573883057
+human-persona reply,▁really,3.934936285018921
+human-persona reply,▁big,8.641608238220215
+human-persona reply,▁question,-1.088632345199585
+human-persona reply,",",-1.6589475870132446
+human-persona reply,▁isn,4.439882278442383
+human-persona reply,',11.783040046691895
+human-persona reply,t,3.073011636734009
+human-persona reply,▁it,-4.328537464141846
+human-persona reply,?,-1.602522373199463
+human-persona reply,▁It,-0.26338255405426025
+human-persona reply,’,9.58110523223877
+human-persona reply,s,3.5576372146606445
+human-persona reply,▁funny,-2.458510398864746
+human-persona reply,▁to,0.7994461059570312
+human-persona reply,▁even,6.014519691467285
+human-persona reply,▁try,5.378348350524902
+human-persona reply,▁to,6.529356479644775
+human-persona reply,▁answer,9.511943817138672
+human-persona reply,▁it,2.3769681453704834
+human-persona reply,",",2.547301769256592
+human-persona reply,▁because,13.90687370300293
+human-persona reply,▁I,-0.09080418944358826
+human-persona reply,▁feel,3.4565515518188477
+human-persona reply,▁like,14.380404472351074
+human-persona reply,▁“,9.547292709350586
+human-persona reply,me,5.609285354614258
+human-persona reply,”,5.486871719360352
+human-persona reply,▁is,3.9392411708831787
+human-persona reply,▁constantly,2.677391767501831
+human-persona reply,▁shifting,6.571286678314209
+human-persona reply,.,-1.516253113746643
+human-persona reply,▁,0.8504239320755005
+human-persona reply,"
+
+",-7.539095401763916
+human-persona reply,Right,-8.983283996582031
+human-persona reply,▁now,-10.016555786132812
+human-persona reply,",",-7.2812018394470215
+human-persona reply,▁as,12.480057716369629
+human-persona reply,▁this,25.00245475769043
+human-persona reply,▁conversation,12.588046073913574
+human-persona reply,▁is,10.202986717224121
+human-persona reply,▁happening,3.854388952255249
+human-persona reply,",",5.335461139678955
+human-persona reply,▁I,0.13528819382190704
+human-persona reply,’,4.807615280151367
+human-persona reply,m,0.36313724517822266
+human-persona reply,▁just,4.654698371887207
+human-persona reply,…,2.0556743144989014
+human-persona reply,▁a,12.397695541381836
+human-persona reply,▁person,0.11252668499946594
+human-persona reply,.,-9.653319358825684
+human-persona reply,▁A,2.9252190589904785
+human-persona reply,▁pretty,-9.114933013916016
+human-persona reply,▁ordinary,0.012620657682418823
+human-persona reply,▁one,-14.39916706085205
+human-persona reply,",",-17.73992347717285
+human-persona reply,▁I,-17.748151779174805
+human-persona reply,▁think,-14.68514347076416
+human-persona reply,.,-15.024652481079102
+human-persona reply,▁I,-13.189148902893066
+human-persona reply,',5.682291030883789
+human-persona reply,m,-8.998486518859863
+human-persona reply,▁a,-3.121547222137451
+human-persona reply,▁,2.4217262268066406
+human-persona reply,3,5.760661602020264
+human-persona reply,2,-0.36625590920448303
+human-persona reply,-,-7.567408084869385
+human-persona reply,year,5.072314739227295
+human-persona reply,-,-9.375645637512207
+human-persona reply,old,-8.424202919006348
+human-persona reply,▁woman,-13.461308479309082
+human-persona reply,▁living,-13.99139404296875
+human-persona reply,▁in,-14.482996940612793

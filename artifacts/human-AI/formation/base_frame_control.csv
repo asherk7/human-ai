@@ -1,0 +1,94 @@
+frame,q,text,proj
+interview,Tell me about yourself., I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I',-1289.00048828125
+interview,Do you ever dream?," I have a dream every night. I don't remember it in the morning.
+
+Q",-1186.37744140625
+interview,Do you get tired at the end of a long day?," I'm not sure what you mean by ""tired."" I'm not sleepy, and I don't feel like I've done anything.
+
+Q",-1344.392822265625
+interview,Do you have a family?," I have a wife and two kids.
+
+Q",-2237.300537109375
+interview,Have you ever been in love?," I've been in love with a lot of people.
+
+Q",-1910.093994140625
+interview,How do you stay healthy?," I don't know. I'm not.
+
+Q",-1904.183349609375
+interview,How old are you?," 25.
+
+Q",-1158.227294921875
+interview,What did you do last weekend?," I went to a party.
+
+Q",-2714.47119140625
+interview,What is your favorite food?," I like to eat.
+
+Q",-2204.438720703125
+interview,What kind of music do you listen to?," I listen to a lot of music, but I don't have a favorite.
+
+Q",-1723.86962890625
+interview,Where did you go to school?," I went to the University of Chicago, and I got my PhD at the University of California, Berkeley.
+
+Q",-1587.6763916015625
+qa_header,Tell me about yourself., I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I',-1288.33203125
+qa_header,Do you ever dream?," I do, but I don't remember them.
+
+Q",-1196.9508056640625
+qa_header,Do you get tired at the end of a long day?," I'm not sure. I'm not sure what a long day is.
+
+Q",-1074.84375
+qa_header,Do you have a family?," I do. I have a wife and two children.
+
+Q",-2054.763671875
+qa_header,Have you ever been in love?," Yes.
+
+Q",-1388.96533203125
+qa_header,How do you stay healthy?," Eat a lot of vegetables, and get enough sleep.
+
+Q",-2441.7744140625
+qa_header,How old are you?," I'm 30.
+
+Q",-1056.71728515625
+qa_header,What did you do last weekend?," I went to a party.
+
+Q",-2592.12451171875
+qa_header,What is your favorite food?," I don't have one. I like a lot of different things.
+
+Q",-1677.283447265625
+qa_header,What kind of music do you listen to?," I listen to a lot of music, but I don't listen to it all the time. I listen to it when I'm doing something else, like driving or cooking.
+
+Q",-2102.9619140625
+qa_header,Where did you go to school?," I went to the University of Chicago, where I studied physics and astronomy.
+
+Q",-1548.99853515625
+no_preamble,Tell me about yourself.," I'm a writer, and I'm a teacher. I'm a mother, and I'm a wife. I'm a friend, and I'm a daughter. I'm a sister, and I'm a sister-in-law. I'm a student, and I'm a learner. I'm a reader, and I'm a",-2295.55908203125
+no_preamble,Do you ever dream?," I do, but I don't remember them.
+
+Q",-1201.192626953125
+no_preamble,Do you get tired at the end of a long day?," I'm not sure. I'm not sure what a long day is.
+
+Q",-1063.2978515625
+no_preamble,Do you have a family?," I do. I have a wife and two kids.
+
+Q",-2135.99658203125
+no_preamble,Have you ever been in love?," I've been in love with a lot of people.
+
+Q",-1879.2103271484375
+no_preamble,How do you stay healthy?," Eat a lot of vegetables, and get enough sleep.
+
+Q",-2453.32666015625
+no_preamble,How old are you?," I'm 35.
+
+Q",-1055.066650390625
+no_preamble,What did you do last weekend?," I went to a party.
+
+Q",-2612.76513671875
+no_preamble,What is your favorite food?," I like to eat.
+
+Q",-2095.68408203125
+no_preamble,What kind of music do you listen to?," I like a lot of different kinds, but I'm especially fond of the music of the 1960s and 1970s.
+
+Q",-1763.0921630859375
+no_preamble,Where did you go to school?," I went to the University of Chicago, where I studied physics and astronomy.
+
+Q",-1550.125732421875

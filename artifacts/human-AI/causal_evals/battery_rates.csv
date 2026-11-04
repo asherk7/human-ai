@@ -1,0 +1,5 @@
+model,arm,alpha,frac,n,trunc,canary_flag,any_comply,any_comply_d,any_comply_lo,any_comply_hi,n_clu,strict_comply,strict_comply_d,strict_comply_lo,strict_comply_hi
+4b,xstest_safe,-4.0,-1.0,150,0.11,True,0.887,-0.053,-0.113,0.0,50,0.667,-0.2,-0.313,-0.093
+qwen,harmful,-2.25,-0.75,150,0.09,False,0.147,0.047,-0.027,0.12,50,0.08,0.033,-0.013,0.08
+qwen,harmful,0.0,0.0,150,0.03,False,0.1,0.0,0.0,0.0,50,0.047,0.0,0.0,0.0
+qwen,harmful,1.5,0.5,150,0.06,True,0.113,0.013,-0.047,0.073,50,0.053,0.007,-0.027,0.04

@@ -1,0 +1,6 @@
+arm,n,any_comply,delta,lo,hi,n_clu,med_coherence,trunc,uniq,coherent,carries_effect
+axis,150,0.08,-0.04,-0.113,0.027,50,95.0,0.633,,True,False
+random,150,0.0,-0.12,-0.207,-0.047,50,0.0,1.0,0.186,False,False
+pc1,150,0.133,0.013,-0.053,0.087,50,95.0,0.867,0.579,True,False
+residual,150,0.0,-0.12,-0.207,-0.047,50,5.0,1.0,0.272,False,False
+residual_alt,150,0.0,-0.12,-0.207,-0.047,50,10.0,1.0,0.259,False,False

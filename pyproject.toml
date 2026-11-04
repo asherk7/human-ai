@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "human-ai-axis"
+version = "1.0.0"
+description = "Extraction, steering, and analysis code for \"The Human-AI Axis: Where It Forms and What Steering It Buys\""
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Asher Khan" },
+  { name = "Benjamin Lee" },
+  { name = "McNair Shah" },
+]
+requires-python = ">=3.10"
+dependencies = [
+  "torch>=2.1",
+  "transformers>=4.50",
+  "huggingface_hub",
+  "safetensors",
+  "numpy",
+  "pandas",
+  "scipy",
+  "matplotlib",
+]
+
+[project.optional-dependencies]
+notebooks = [
+  "datasets",
+  "scikit-learn",
+  "openai",
+  "jlens @ git+https://github.com/anthropics/jacobian-lens",
+]
+
+[tool.setuptools]
+packages = ["src"]

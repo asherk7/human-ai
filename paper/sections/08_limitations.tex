@@ -1,0 +1,32 @@
+\section{Limitations}
+\label{sec:limitations}
+
+Steering interventions can be brittle across inputs and distributions
+\citep{tan2024analyzing, braun2025understanding} (Appendix~\ref{app:steerlayers}).
+Held-out evaluations, resampling checks, permutation nulls, dose sweeps, and
+context-clustered bootstrap intervals reduce out-of-distribution risk but do
+not eliminate it, so our claims remain limited to the tested distributions.
+Cross-model experiments cover Gemma 3 4B, 12B, and Qwen 2.5 7B, while formation
+is studied on OLMo 2, with a base-versus-instruct comparison on Gemma 3 4B.
+Prompt injection and the register/PC1 decomposition are evaluated only on
+Gemma 3 4B. Our Assistant Axis comparison is also a limited
+one-model reconstruction, not a comparison against a released vector.
+
+The axis should not be interpreted as a pure measure of identity. Writing
+register strongly affects raw projection, so absolute axis position and
+midpoint crossings alone do not establish changes in identity. The Section~\ref{sec:calibration}
+decomposition is limited to one model, one layer, and prompt injection; its
+preregistered AdvBench endpoint was unmeasurable and therefore could not be
+validly decomposed (Appendices~\ref{app:battery} and~\ref{app:register2x2decomp}).
+Register and PC1 also give different decomposition results (Appendix~\ref{app:register2x2decomp}),
+and matched-prose comparisons equate median length rather than fully controlling
+deliberation.
+
+Finally, steering strength is calibrated separately across models and
+tasks, limiting direct comparisons of dose (Appendix~\ref{app:crossmodelsafety}).
+Agentic text also has a context-dependent projection offset, so we compare each
+rollout against its own baseline rather than interpreting absolute
+projection (Appendix~\ref{app:crossmodelsafety}). Judged deliberation has weak
+human agreement ($\kappa=0.38$) and is treated only as a directional measure;
+judge-free prose length is the primary measure of deliberative behavior
+(Appendix~\ref{app:methods}).

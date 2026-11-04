@@ -1,0 +1,8 @@
+{
+ "cos_axis_register_L13": 0.9799845218658447,
+ "norm_axis": 1069.71826171875,
+ "norm_reg_par": 1048.3072509765625,
+ "norm_reg_orth": 212.95384216308594,
+ "reg_orth_share": 0.19907470047473907,
+ "note": "reg_par carries the verdict because it is well conditioned; reg_orth is corroboration only"
+}

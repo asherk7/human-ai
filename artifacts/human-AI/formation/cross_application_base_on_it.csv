@@ -1,0 +1,9 @@
+ref_axis,layer,auc_on_it_axis,gap_pole_pts,ref_frame_cos
+it_fewshot,13,0.891,69.6,1.0
+it_fewshot,20,0.983,144.2,1.0
+it_fewshot,27,1.0,142.4,1.0
+it_fewshot,33,1.0,120.6,1.0
+it_chat_v2,13,0.889,142.8,0.991
+it_chat_v2,20,0.962,223.3,0.87
+it_chat_v2,27,1.0,239.9,0.725
+it_chat_v2,33,1.0,106.7,0.702

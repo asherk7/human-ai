@@ -1,0 +1,4 @@
+layer,n_axis,n_reg,k_eff,shared,same_sign
+22,7,12,7,5,3
+27,16,20,16,8,6
+29,11,14,11,5,3

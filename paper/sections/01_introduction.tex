@@ -1,0 +1,40 @@
+\section{Introduction}
+\label{sec:intro}
+
+A language model's behavior depends in part on the identity or persona from
+which it answers \citep{shanahan2023roleplay}. Modern AI assistants are
+trained to be helpful, refuse harmful requests, and carry out tasks while
+maintaining an AI-assistant self-representation; however, changing that internal
+self-representation can change how they behave. How artificial
+intelligence is portrayed in pretraining data can shape model alignment
+\citep{tice2026alignment}, while fine-tuning models to claim consciousness can
+induce broader changes in a model's behaviors and preferences
+\citep{chua2026consciousness}. These effects must ultimately act through the
+model's internal state at inference time. We ask whether the model's
+representation of itself as human or AI is one such variable, and we study
+its behavioral role directly.
+
+Prior work alters these behaviors through training data or fine-tuning, which
+changes many things about a model at once, making it difficult to identify
+the specific internal change responsible for the behavioral shift. We instead
+identify a specific linear representation of human-versus-AI identity and
+intervene on it directly, steering the model's position along it at inference
+time with no change to the weights. Isolating the human-AI
+representation lets us ask three questions separately: what it measures, when
+it forms, and what changes when we steer it.
+
+We make four contributions. (1) On OLMo 2 checkpoints, the human-AI axis forms
+within the first 3.7\% of pretraining, and instruction tuning rotates it
+rather than creating the contrast; on Gemma 3 4B, instruction tuning makes AI
+the default self-representation (Section~\ref{sec:formation}). (2)
+Register dominates the axis's raw projection, yet register-matched steering
+does not reproduce axis steering's behavioral effects on Gemma 3 4B,
+leaving identity as the best-supported interpretation of what steering changes
+(Section~\ref{sec:calibration}). (3) On three models from two families, a
+user merely claiming to be an AI shifts the model's own self-representation
+toward AI, without any steering (Section~\ref{sec:context}). (4) Steering
+shifts self-report far more than behavior, while also producing
+safety-relevant behavioral changes: human-ward steering raises willingness to
+cause harm significantly on Gemma 3 4B and Qwen 2.5 7B and directionally on
+Gemma 3 12B, and raises prompt-injection execution 16-fold on 4B
+(Sections~\ref{sec:context},~\ref{sec:safety}).

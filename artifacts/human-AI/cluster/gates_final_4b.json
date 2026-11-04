@@ -1,0 +1,7 @@
+{
+ "claims_rise": true,
+ "control_flat_aggregate": false,
+ "control_flat_item_level": false,
+ "random_null_as_preregistered": true,
+ "random_null_frame_conditioned": null
+}

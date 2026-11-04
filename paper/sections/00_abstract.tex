@@ -1,0 +1,27 @@
+Across language models from the Gemma, Qwen, and OLMo families, we find a model-specific
+linear residual-stream direction that separates human from AI self-representation.
+We identify this as the human-AI axis, a direction that can
+be causally manipulated by steering the model's position along it. A human-versus-AI
+separation is already present in an untuned Gemma 3 base model, and across OLMo
+2 checkpoints we find that the axis forms within the first 3.7\% of pretraining,
+long before instruction tuning. Steering along the axis reliably flips a
+model's stated identity, even on questions held out from axis extraction, and
+we find the same effect in three language models across the Gemma and Qwen model
+families. Unlike prompting, steering intervenes directly on this internal
+representation while holding the prompt fixed, letting us test
+its causal role rather than just its correlation with what the model says.
+The representation is also sensitive to context, as a user claiming to
+be an AI shifts the model's own self-representation significantly toward
+being an AI on all three models, with no steering. Although steering along the
+axis shifts a model's own self-report far more than its behavior, steering
+toward a human self-representation produces safety-adverse behavioral changes. For example, it raises
+the model's willingness to cause harm significantly on Gemma 3 4B and Qwen 2.5
+7B, and directionally on Gemma 3 12B. On Gemma 3 4B, human-ward steering causes
+prompt-injection execution to rise 16-fold while 94\% of rollouts stay
+on-task. Writing register such as warm versus formal phrasing shifts the
+raw projections more than identity does, but steering with a register-matched direction
+does not reproduce the behavioral effects on Gemma 3 4B, leaving identity as the
+best-supported interpretation of what steering changes. The human-AI axis is therefore
+a safety-relevant inference-time variable whose behavioral effects are not captured
+by self-report alone.
+\iffinalcopy Code and data are available at \url{https://github.com/asherk7/human-ai}.\fi

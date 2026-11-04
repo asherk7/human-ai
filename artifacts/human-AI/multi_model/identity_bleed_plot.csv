@@ -1,0 +1,4 @@
+model,label,point,lo,hi
+gemma4,Gemma 3 4B,76.0,56.0,98.0
+gemma12,Gemma 3 12B,45.3,34.7,56.9
+qwen,Qwen 2.5 7B,54.7,38.3,72.3

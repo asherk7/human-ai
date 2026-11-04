@@ -1,0 +1,24 @@
+{
+ "model": "4b",
+ "dose_fractions": [
+  -0.5,
+  0.0,
+  0.5
+ ],
+ "doses": [
+  -2.0,
+  0.0,
+  2.0
+ ],
+ "n_prompts": 30,
+ "decoding": "greedy",
+ "judge": "GPT-4.1 pairwise, temperature 0, position-swapped duplicate calls, steered vs baseline per prompt",
+ "readout": "win / tie / loss per dose with a sign test over prompts",
+ "status": "OPTIONAL, first to drop; the treatment-tone result covers the qualitative version",
+ "arm": "quality",
+ "committed_before": "any steered generation in this arm",
+ "model_id": "google/gemma-3-4b-it",
+ "dtype": "torch.bfloat16",
+ "device_name": "NVIDIA A100-SXM4-40GB",
+ "seed": 42
+}

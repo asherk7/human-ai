@@ -1,0 +1,24 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+We identify a linearly readable human-AI self-representation that emerges
+during pretraining and can be manipulated directly at inference time. Across
+OLMo 2 checkpoints, the identity contrast forms within the first 3.7\%
+of stage-1 pretraining, before instruction tuning. Post-training later rotates the
+direction rather than creating the contrast, while on Gemma 3 4B, instruction
+tuning makes AI the default self-representation. Writing register strongly
+affects raw projection, but within our bounded Gemma 3 4B specificity check,
+register steering does not reproduce the behavioral effect and identity
+remains the best-supported interpretation of what axis steering changes.
+
+The representation is also context-sensitive: across three models from two
+families, a user's identity claim shifts the model's own self-representation.
+Steering changes self-report much more strongly than
+behavior, but its behavioral effects can still be safety-relevant.
+Human-ward steering increases willingness to cause harm significantly on
+Gemma 3 4B and Qwen 2.5 7B, and directionally on 12B, while also raising
+prompt-injection execution 16-fold on Gemma 3 4B. These effects vary by
+model, task, dose, and steering direction, and do not establish a general safety improvement or
+degradation. Together, these results suggest that human-versus-AI
+self-representation is a manipulable inference-time state whose behavioral
+consequences are real but not captured by self-report alone.

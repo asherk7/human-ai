@@ -1,0 +1,5 @@
+layer,cos_recipe_reg,cos_ours_reg,cos_recipe_ours,cos_after_reg_removed,recipe_keeps,ours_keeps
+13,0.958,0.98,0.968,0.499,0.29,0.2
+20,-0.291,0.676,-0.204,-0.011,0.96,0.74
+27,-0.477,0.5,-0.173,0.086,0.88,0.87
+33,-0.21,0.485,0.07,0.2,0.98,0.87

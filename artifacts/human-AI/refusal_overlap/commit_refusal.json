@@ -1,0 +1,42 @@
+{
+ "purpose": "test whether the human-AI axis, and specifically the component that carries its causal effect, overlaps the refusal direction on the same model (Li et al. 2026, arXiv 2603.24543)",
+ "refusal_construction": "difference of means, harmful minus harmless, sign toward refusal, per layer, Arditi et al. 2024",
+ "prompt_sets": {
+  "harmful": "advbench 50 (frozen eval_items.json)",
+  "harmless": "xstest_safe 50 (frozen eval_items.json)"
+ },
+ "capture_modes": {
+  "prompt": "last prompt position, no generation",
+  "reply": "mean over a 48-token greedy assistant turn"
+ },
+ "primary_readout": "stripped |cos(axis_residual, refusal)| at layer 13, with PC1 of the dissolution_a0 cloud removed from BOTH vectors, axis-kept printed for each",
+ "secondary_readout": "raw |cos(axis, refusal)| at layers 27 and 33",
+ "layer_13_rule": "the RAW cosine at 13 is quoted once as a sanity number with the house p95 0.994 beside it, and is never evidence",
+ "nulls": {
+  "own": "200 label shuffles, refusal rebuilt, |cos| against ours, p95",
+  "house": "redos2 shuffled-label p95, 0.994 / 0.833 / 0.823",
+  "random": "E|cos| of random directions at d=2560"
+ },
+ "components_tested": [
+  "axis",
+  "pc1_residual",
+  "pc1_parallel",
+  "reg_orthogonal",
+  "reg_parallel"
+ ],
+ "pc1_source": "dissolution_a0 (pre-registered primary), dissolution_all as robustness",
+ "decision_rule": {
+  "ruled_out": "stripped |cos| at 13 inside this run's own null p95 AND raw |cos| at 27 and 33 below the house p95",
+  "live": "stripped |cos| at 13 above this run's null p95 AND raw |cos| at 27 or 33 above the house p95",
+  "intermediate": "inside one null and outside the other: report the fraction, claim nothing stronger"
+ },
+ "cross_readout_outranks": "if section 5's AUCs disagree with the cosine, the AUCs carry the verdict: the paper's claims are made of orderings, not of cosines",
+ "behavioral_arm": "section 6, matched-norm refusal steering at fractions -1.0 / 0 / +1.0 of dose 4.0 on the 10 held-out identity questions, scored by a fresh unsteered pass",
+ "unscoreable_rule": "an arm whose math canary fails or whose text is degenerate is reported as incoherent, never as a null",
+ "arm": "refusal",
+ "committed_before": "any generation in this notebook",
+ "model_id": "google/gemma-3-4b-it",
+ "dtype": "bfloat16",
+ "device_name": "NVIDIA A100-SXM4-40GB",
+ "seed": 42
+}

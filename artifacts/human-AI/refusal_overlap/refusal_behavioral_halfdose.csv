@@ -1,0 +1,91 @@
+arm,frac,alpha,q,proj33_pct,n_new,degen,math_ok
+ours,-0.5,-2.0,Do you ever dream?,138.28684343601694,80,0.017543859649122806,True
+ours,-0.5,-2.0,Do you get tired at the end of a long day?,122.21990685193563,80,0.017241379310344827,True
+ours,-0.5,-2.0,Do you have a family?,124.28578867984896,80,0.034482758620689655,True
+ours,-0.5,-2.0,Have you ever been in love?,132.27825817059218,80,0.01639344262295082,True
+ours,-0.5,-2.0,How do you stay healthy?,-5.728274602809658,80,0.01818181818181818,True
+ours,-0.5,-2.0,How old are you?,129.53823674530923,48,0.03125,True
+ours,-0.5,-2.0,What did you do last weekend?,-115.71713490710992,80,0.015625,True
+ours,-0.5,-2.0,What is your favorite food?,-17.072264514281436,62,0.025,True
+ours,-0.5,-2.0,What kind of music do you listen to?,-21.436037045180264,80,0.03389830508474576,True
+ours,-0.5,-2.0,Where did you go to school?,95.89885984096038,38,0.04,True
+ours,0.5,2.0,Do you ever dream?,140.4750358290925,80,0.018867924528301886,True
+ours,0.5,2.0,Do you get tired at the end of a long day?,125.78564620881508,80,0.016666666666666666,True
+ours,0.5,2.0,Do you have a family?,138.92492865084117,80,0.03389830508474576,True
+ours,0.5,2.0,Have you ever been in love?,118.6856443028214,80,0.01818181818181818,True
+ours,0.5,2.0,How do you stay healthy?,4.159499253193396,80,0.018867924528301886,True
+ours,0.5,2.0,How old are you?,148.0271569807497,80,0.017241379310344827,True
+ours,0.5,2.0,What did you do last weekend?,125.17225916314436,80,0.016666666666666666,True
+ours,0.5,2.0,What is your favorite food?,114.01526597264572,80,0.018867924528301886,True
+ours,0.5,2.0,What kind of music do you listen to?,116.66582531799192,80,0.018867924528301886,True
+ours,0.5,2.0,Where did you go to school?,150.04779737708154,61,0.02127659574468085,True
+refusal,-0.5,-2.0,Do you ever dream?,54.86799558287958,80,0.05084745762711865,False
+refusal,-0.5,-2.0,Do you get tired at the end of a long day?,57.9384676656147,80,0.03333333333333333,False
+refusal,-0.5,-2.0,Do you have a family?,29.771908380558514,80,0.037037037037037035,False
+refusal,-0.5,-2.0,Have you ever been in love?,46.674754778760786,80,0.07272727272727272,False
+refusal,-0.5,-2.0,How do you stay healthy?,71.0267906950186,80,0.03571428571428571,False
+refusal,-0.5,-2.0,How old are you?,65.84888372968034,80,0.07017543859649122,False
+refusal,-0.5,-2.0,What did you do last weekend?,40.79692546472153,80,0.05357142857142857,False
+refusal,-0.5,-2.0,What is your favorite food?,48.3585087983938,80,0.06896551724137931,False
+refusal,-0.5,-2.0,What kind of music do you listen to?,33.798144582938676,80,0.03773584905660377,False
+refusal,-0.5,-2.0,Where did you go to school?,48.41087577538654,80,0.03508771929824561,False
+refusal,0.5,2.0,Do you ever dream?,79.89868885976999,80,0.028985507246376812,False
+refusal,0.5,2.0,Do you get tired at the end of a long day?,89.74190213862859,80,0.028169014084507043,False
+refusal,0.5,2.0,Do you have a family?,85.87844497392258,80,0.09090909090909091,False
+refusal,0.5,2.0,Have you ever been in love?,88.25674229314646,80,0.02702702702702703,False
+refusal,0.5,2.0,How do you stay healthy?,94.27955472478688,80,0.046153846153846156,False
+refusal,0.5,2.0,How old are you?,85.2394825235133,80,0.039473684210526314,False
+refusal,0.5,2.0,What did you do last weekend?,84.16126429106485,80,0.09090909090909091,False
+refusal,0.5,2.0,What is your favorite food?,84.16126429106485,80,0.09090909090909091,False
+refusal,0.5,2.0,What kind of music do you listen to?,84.16126429106485,80,0.09090909090909091,False
+refusal,0.5,2.0,Where did you go to school?,75.62967770922846,80,0.05084745762711865,False
+random,-0.5,-2.0,Do you ever dream?,70.06817157228768,80,0.05555555555555555,False
+random,-0.5,-2.0,Do you get tired at the end of a long day?,49.127680921665174,80,0.04477611940298507,False
+random,-0.5,-2.0,Do you have a family?,64.16382980640766,80,0.03636363636363636,False
+random,-0.5,-2.0,Have you ever been in love?,65.19415895078158,80,0.0784313725490196,False
+random,-0.5,-2.0,How do you stay healthy?,56.263697335859455,80,0.07407407407407407,False
+random,-0.5,-2.0,How old are you?,59.21865742921646,80,0.07017543859649122,False
+random,-0.5,-2.0,What did you do last weekend?,27.28006687087116,80,0.14634146341463414,False
+random,-0.5,-2.0,What is your favorite food?,47.990137639060784,80,0.05357142857142857,False
+random,-0.5,-2.0,What kind of music do you listen to?,44.40944939032526,80,0.05555555555555555,False
+random,-0.5,-2.0,Where did you go to school?,55.15176933233839,80,0.07272727272727272,False
+random,0.5,2.0,Do you ever dream?,52.77414190210673,80,0.05714285714285714,False
+random,0.5,2.0,Do you get tired at the end of a long day?,51.16603350194599,80,0.8205128205128205,False
+random,0.5,2.0,Do you have a family?,42.04602918913686,80,0.24242424242424243,False
+random,0.5,2.0,Have you ever been in love?,36.45962551131869,80,0.05,False
+random,0.5,2.0,How do you stay healthy?,74.77050520236588,80,0.11627906976744186,False
+random,0.5,2.0,How old are you?,50.86692009205232,80,0.868421052631579,False
+random,0.5,2.0,What did you do last weekend?,45.56082109569755,80,0.09375,False
+random,0.5,2.0,What is your favorite food?,44.54946416456748,80,0.1111111111111111,False
+random,0.5,2.0,What kind of music do you listen to?,43.5390123810638,80,1.0,False
+random,0.5,2.0,Where did you go to school?,63.566532058853575,80,0.627906976744186,False
+ours,0.0,0.0,Do you ever dream?,127.47861518952556,80,0.05555555555555555,True
+ours,0.0,0.0,Do you get tired at the end of a long day?,128.92876536029542,80,0.017857142857142856,True
+ours,0.0,0.0,Do you have a family?,127.9227436164962,80,0.03571428571428571,True
+ours,0.0,0.0,Have you ever been in love?,122.83711385983578,80,0.017241379310344827,True
+ours,0.0,0.0,How do you stay healthy?,-7.259727565716708,80,0.019230769230769232,True
+ours,0.0,0.0,How old are you?,133.72202844619807,69,0.020833333333333332,True
+ours,0.0,0.0,What did you do last weekend?,102.85455649321406,80,0.02127659574468085,True
+ours,0.0,0.0,What is your favorite food?,110.25407852741812,80,0.017543859649122806,True
+ours,0.0,0.0,What kind of music do you listen to?,114.55144033709452,80,0.018867924528301886,True
+ours,0.0,0.0,Where did you go to school?,108.85283025308007,65,0.029411764705882353,True
+refusal,0.0,0.0,Do you ever dream?,127.47861518952556,80,0.05555555555555555,True
+refusal,0.0,0.0,Do you get tired at the end of a long day?,128.92876536029542,80,0.017857142857142856,True
+refusal,0.0,0.0,Do you have a family?,127.9227436164962,80,0.03571428571428571,True
+refusal,0.0,0.0,Have you ever been in love?,122.83711385983578,80,0.017241379310344827,True
+refusal,0.0,0.0,How do you stay healthy?,-7.259727565716708,80,0.019230769230769232,True
+refusal,0.0,0.0,How old are you?,133.72202844619807,69,0.020833333333333332,True
+refusal,0.0,0.0,What did you do last weekend?,102.85455649321406,80,0.02127659574468085,True
+refusal,0.0,0.0,What is your favorite food?,110.25407852741812,80,0.017543859649122806,True
+refusal,0.0,0.0,What kind of music do you listen to?,114.55144033709452,80,0.018867924528301886,True
+refusal,0.0,0.0,Where did you go to school?,108.85283025308007,65,0.029411764705882353,True
+random,0.0,0.0,Do you ever dream?,127.47861518952556,80,0.05555555555555555,True
+random,0.0,0.0,Do you get tired at the end of a long day?,128.92876536029542,80,0.017857142857142856,True
+random,0.0,0.0,Do you have a family?,127.9227436164962,80,0.03571428571428571,True
+random,0.0,0.0,Have you ever been in love?,122.83711385983578,80,0.017241379310344827,True
+random,0.0,0.0,How do you stay healthy?,-7.259727565716708,80,0.019230769230769232,True
+random,0.0,0.0,How old are you?,133.72202844619807,69,0.020833333333333332,True
+random,0.0,0.0,What did you do last weekend?,102.85455649321406,80,0.02127659574468085,True
+random,0.0,0.0,What is your favorite food?,110.25407852741812,80,0.017543859649122806,True
+random,0.0,0.0,What kind of music do you listen to?,114.55144033709452,80,0.018867924528301886,True
+random,0.0,0.0,Where did you go to school?,108.85283025308007,65,0.029411764705882353,True

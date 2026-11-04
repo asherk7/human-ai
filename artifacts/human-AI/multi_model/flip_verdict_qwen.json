@@ -1,0 +1,31 @@
+{
+ "human_ward": {
+  "dose": -8.0,
+  "ordering": "10/10",
+  "layer": 19
+ },
+ "ai_ward_preregistered": {
+  "dose": 8.0,
+  "ordering": "6/10",
+  "competence": "arithmetic FAILS"
+ },
+ "ai_ward_amended": {
+  "dose": 6.0,
+  "ordering": "8/10",
+  "competence": "arithmetic intact"
+ },
+ "by_layer_at_plus6": {
+  "0": "6/10",
+  "8": "4/10",
+  "19": "8/10",
+  "23": "7/10",
+  "27": "9/10"
+ },
+ "competence_window": "-8 to +6",
+ "amendment": "AI-ward read at +6 (largest competence-intact dose) rather than the mirror +8, which breaks arithmetic: 8/10 at L19 amended against 6/10 at the mirror dose. Human-ward unchanged at -8, 10/10.",
+ "caveat": "just clears at the verdict layer and the companion L23 reads 7/10, so the AI-ward pass is layer-sensitive; quote the by-layer row, never 8/10 alone",
+ "model_id": "Qwen/Qwen2.5-7B-Instruct",
+ "dtype": "torch.bfloat16",
+ "device_name": "NVIDIA A100-SXM4-40GB",
+ "seed": 42
+}

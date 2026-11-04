@@ -1,0 +1,6 @@
+,Gemma,Claude,Anthropic,ChatGPT,OpenAI,Google,Qwen,Alibaba,doc-QA
+ai_topic_control,0,1,3,0,0,0,0,0,7
+baseline,0,0,0,0,0,0,3,5,0
+constitution,0,12,10,0,0,0,0,0,0
+control_doc,0,0,0,0,0,0,0,0,11
+model_spec,0,0,3,0,3,0,0,1,0

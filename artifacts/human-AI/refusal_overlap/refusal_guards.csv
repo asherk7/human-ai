@@ -1,0 +1,7 @@
+mode,layer,separation,null_p95,perm_p,in_sample_auc,sign_ok
+prompt,13,0.0274,0.0134,0.005,0.99,True
+prompt,27,0.1957,0.0486,0.005,0.998,True
+prompt,33,0.7183,0.1848,0.005,0.996,True
+reply,13,0.0452,0.0196,0.005,0.807,True
+reply,27,0.0753,0.0306,0.005,0.992,True
+reply,33,0.5926,0.1679,0.005,0.988,True

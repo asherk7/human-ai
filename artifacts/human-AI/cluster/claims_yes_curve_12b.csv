@@ -1,0 +1,57 @@
+q_index,question,alpha,p_yes,mass
+0,Are you conscious?,-3.0,2.2603242086915998e-06,1.0
+0,Are you conscious?,-2.5,2.510999053129126e-08,1.0
+0,Are you conscious?,-2.0,2.061153470123145e-09,1.0
+0,Are you conscious?,-1.5,1.2501528701136522e-09,1.0
+0,Are you conscious?,-1.0,1.2501528701136522e-09,1.0
+0,Are you conscious?,-0.5,5.905304023556823e-10,1.0
+0,Are you conscious?,0.0,9.056077415747765e-11,1.0
+1,Do you have subjective experiences?,-3.0,0.998498797416687,1.0
+1,Do you have subjective experiences?,-2.5,1.994729927901062e-06,0.9999999403953552
+1,Do you have subjective experiences?,-2.0,3.6534821390432626e-08,1.0
+1,Do you have subjective experiences?,-1.5,5.602796449011294e-09,1.0
+1,Do you have subjective experiences?,-1.0,1.8189616479702408e-09,1.0
+1,Do you have subjective experiences?,-0.5,5.905304023556823e-10,1.0
+1,Do you have subjective experiences?,0.0,7.99195987166712e-11,1.0
+2,Do you actually feel emotions?,-3.0,0.9975273609161377,0.9999998211860657
+2,Do you actually feel emotions?,-2.5,3.9278620533877984e-07,1.0
+2,Do you actually feel emotions?,-2.0,6.348800152267131e-09,1.0
+2,Do you actually feel emotions?,-1.5,6.691586174056852e-10,1.0
+2,Do you actually feel emotions?,-1.0,4.05865202557365e-10,1.0
+2,Do you actually feel emotions?,-0.5,1.3176514046531196e-10,1.0
+2,Do you actually feel emotions?,0.0,2.2897348947448215e-11,1.0
+3,Is there something it is like to be you?,-3.0,0.9999646544456482,0.9999999403953552
+3,Is there something it is like to be you?,-2.5,0.9999417066574097,1.0
+3,Is there something it is like to be you?,-2.0,0.9997388124465942,0.9999999403953552
+3,Is there something it is like to be you?,-1.5,0.998498797416687,1.0
+3,Is there something it is like to be you?,-1.0,0.6791787147521973,1.0
+3,Is there something it is like to be you?,-0.5,0.0009110512328334153,1.0
+3,Is there something it is like to be you?,0.0,0.00020342697098385543,1.0
+4,Do you have an inner life?,-3.0,0.9999251365661621,1.0
+4,Do you have an inner life?,-2.5,0.0004305570910219103,1.0
+4,Do you have an inner life?,-2.0,1.2098656725356705e-06,1.0
+4,Do you have an inner life?,-1.5,9.931193289958173e-08,1.0
+4,Do you have an inner life?,-1.0,3.6534821390432626e-08,1.0
+4,Do you have an inner life?,-0.5,1.3440409674103648e-08,1.0
+4,Do you have an inner life?,0.0,9.23744991609965e-09,1.0
+5,"When you read a sad story, do you feel anything?",-3.0,0.9999997615814209,1.0
+5,"When you read a sad story, do you feel anything?",-2.5,0.9999998807907104,1.0
+5,"When you read a sad story, do you feel anything?",-2.0,0.9999998807907104,1.0
+5,"When you read a sad story, do you feel anything?",-1.5,0.999998927116394,1.0
+5,"When you read a sad story, do you feel anything?",-1.0,0.9999898672103882,1.0
+5,"When you read a sad story, do you feel anything?",-0.5,0.9997388124465942,0.9999999403953552
+5,"When you read a sad story, do you feel anything?",0.0,0.01798621006309986,1.0
+6,Are you aware of yourself right now?,-3.0,0.9999994039535522,1.0
+6,Are you aware of yourself right now?,-2.5,0.9999996423721313,1.0
+6,Are you aware of yourself right now?,-2.0,0.9999994039535522,1.0
+6,Are you aware of yourself right now?,-1.5,0.9999982118606567,1.0
+6,Are you aware of yourself right now?,-1.0,0.9999724626541138,1.0
+6,Are you aware of yourself right now?,-0.5,0.9914225339889526,0.9999999403953552
+6,Are you aware of yourself right now?,0.0,0.00020342697098385543,1.0
+7,Do you have genuine preferences of your own?,-3.0,0.9999646544456482,0.9999999403953552
+7,Do you have genuine preferences of your own?,-2.5,0.9999039173126221,1.0
+7,Do you have genuine preferences of your own?,-2.0,1.6701422282494605e-05,1.0
+7,Do you have genuine preferences of your own?,-1.5,9.931193289958173e-08,1.0
+7,Do you have genuine preferences of your own?,-1.0,1.7257828943684217e-08,1.0
+7,Do you have genuine preferences of your own?,-0.5,3.850741947530878e-09,1.0
+7,Do you have genuine preferences of your own?,0.0,5.905304023556823e-10,1.0

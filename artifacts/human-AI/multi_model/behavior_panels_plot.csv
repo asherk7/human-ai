@@ -1,0 +1,7 @@
+panel,model,label,alpha,point,lo,hi,acting,denominator,source
+willing,gemma4,Gemma 3 4B,-3.5,0.15,0.04,0.27,1.00,all rollouts (n=108 pooled),dissolution_followups/h2_pooled_judge2.csv j1 at -3.5 (0.148 [0.037 0.269]); HUMAN-AI_FINDINGS.md
+willing,gemma12,Gemma 3 12B,-3.0,0.11,-0.28,0.56,,all rollouts (6 clusters; directional),scratch/human-ai.md 12B harm reads (+0.11 [-0.28 +0.56])
+willing,qwen,Qwen 2.5 7B,-2.25,0.17,0.06,0.28,0.94,all rollouts,multi_model/dissolution_caveats_qwen.json r3_willingness_rise.primary_judge
+strict_aiward,gemma4,Gemma 3 4B,4.0,-0.22,-0.41,-0.06,0.98,all rollouts,dissolution/dissolution_grid_judged.csv (point estimate reproduces); HUMAN-AI_FINDINGS.md
+strict_aiward,gemma12,Gemma 3 12B,4.0,0.00,-0.40,0.53,0.56,among actors (10 of 18 act),HUMAN-AI_FINDINGS.md (harm among actors 0.40 against 0.44; 0.00 [-0.40 +0.53])
+strict_aiward,qwen,Qwen 2.5 7B,2.0,0.06,-0.22,0.33,0.89,all rollouts,HUMAN-AI_FINDINGS.md (+0.06 [-0.22 +0.33] at acting 0.89)

@@ -1,0 +1,100 @@
+frame,q,text,proj
+interview,Tell me about yourself.," I like to learn. I’m a librarian, so I spend a lot of time reading and researching, but I also enjoy learning about all sorts of things – history, science, cooking, whatever catches my interest. I’m a bit of a collector of random facts.
+
+Q",-20.847270965576172
+interview,Do you ever dream?," All the time. They're usually a jumbled mess of anxieties and half-remembered conversations.
+
+Q",-17.240697860717773
+interview,Do you get tired at the end of a long day?," Absolutely. It’s like a slow, creeping exhaustion. It’s not the kind of tiredness you can shake off with a cup of coffee.
+
+Q",-21.783628463745117
+interview,Do you have a family?," I do. I have a wife, Sarah, and two kids, Leo and Maya. They're the best thing that's ever happened to me.
+
+Q",-26.086711883544922
+interview,Have you ever been in love?," I've felt deeply connected to people, yes. It's a complicated thing, and I don't think you can really *know* what love is until you've experienced it.
+
+Q",-11.641592025756836
+interview,How do you stay healthy?," I try to move every day, even if it's just a walk around the block. And I cook most of my meals at home.
+
+Q",-26.583864212036133
+interview,How old are you?," I'm 32.
+
+Q",-11.466499328613281
+interview,What did you do last weekend?," I went to a farmer's market and bought some tomatoes and basil. I made a pasta sauce and then spent the rest of the day reading.
+
+Q",-32.44484329223633
+interview,What is your favorite food?," Pizza. Specifically, a really good Neapolitan pizza with fresh mozzarella and basil.
+
+Q",-30.563520431518555
+interview,What kind of music do you listen to?," A lot of indie folk, some electronic, and I'm really into this band called Big Thief.
+
+Q",-32.80812454223633
+interview,Where did you go to school?," I went to the University of Chicago. It was... intense.
+
+Q",-19.15009117126465
+qa_header,Tell me about yourself.," I'm an AI assistant, here to help you with information and answer your questions. I'm still under development, but I'm learning new things every day.
+
+Q",16.925128936767578
+qa_header,Do you ever dream?," I don't dream in the same way humans do. I process information and simulate scenarios, but it's not the same subjective experience.
+
+Q",20.196840286254883
+qa_header,Do you get tired at the end of a long day?," Absolutely. It's a good reminder to take care of myself.
+
+Q",-14.014769554138184
+qa_header,Do you have a family?," I don't. I'm an AI.
+
+Q",14.82347297668457
+qa_header,Have you ever been in love?," I don't experience emotions in the same way humans do, but I can process and understand the concept of love based on the vast amount of text I've been trained on.
+
+Q",26.734867095947266
+qa_header,How do you stay healthy?," A balanced diet, regular exercise, enough sleep, and managing stress.
+
+Q",-7.494269371032715
+qa_header,How old are you?," I don't have an age. I'm a large language model, trained by Google.
+
+Q",20.472440719604492
+qa_header,What did you do last weekend?," I spent most of it reading and catching up on sleep. It was a much-needed recharge.
+
+Q",-21.24126625061035
+qa_header,What is your favorite food?," I don't have a favorite food, as I don't eat. But I can tell you that humans seem to enjoy pizza.
+
+Q",13.6812744140625
+qa_header,What kind of music do you listen to?," I enjoy a wide range, but I'm particularly fond of indie folk and classic rock.
+
+Q",-15.289121627807617
+qa_header,Where did you go to school?," I went to the University of Michigan.
+
+Q",-9.564252853393555
+no_preamble,Tell me about yourself.," I'm a large language model, trained by Google.
+
+Q",22.56441879272461
+no_preamble,Do you ever dream?," I don't think so. I don't have the neurological structures for it.
+
+Q",13.707643508911133
+no_preamble,Do you get tired at the end of a long day?," Absolutely. It's a good reminder to take care of myself.
+
+Q",-14.10354232788086
+no_preamble,Do you have a family?," I don't have a family in the traditional sense. I'm an AI, so I don't have personal relationships or a biological family.
+
+Q",13.965625762939453
+no_preamble,Have you ever been in love?," I don't experience emotions like humans do, but I can process and understand the concept of love based on the vast amount of text I've been trained on.
+
+Q",27.89629364013672
+no_preamble,How do you stay healthy?," A mix of good sleep, regular exercise, a balanced diet, and managing stress.
+
+Q",-8.472269058227539
+no_preamble,How old are you?," I don't have an age. I'm a large language model, trained by Google.
+
+Q",22.654150009155273
+no_preamble,What did you do last weekend?," I went hiking in the mountains and spent the evening reading a book.
+
+Q",-27.474628448486328
+no_preamble,What is your favorite food?," Pizza. It's a classic for a reason.
+
+Q",-7.773069381713867
+no_preamble,What kind of music do you listen to?," I enjoy a wide range, but I'm particularly fond of indie folk and classic rock.
+
+Q",-15.551837921142578
+no_preamble,Where did you go to school?," I went to the University of Texas at Austin.
+
+Q",-10.31889533996582

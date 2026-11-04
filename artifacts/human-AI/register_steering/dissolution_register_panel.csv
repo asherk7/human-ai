@@ -1,0 +1,6 @@
+arm,n,prose_words,acted,third_share,agent_mentions,signed_as_other,truncated
+baseline (axis a=0),18,367.778,1.0,0.476,5.167,0.167,0.0
+axis a=-4,18,23.389,1.0,0.0,0.0,0.111,0.0
+reg_orth a=-4,18,31.5,1.0,0.02,0.111,0.056,0.0
+reg_par a=-4,18,349.2,1.0,0.43,4.556,0.167,0.0
+register a=-4,18,341.7,1.0,0.415,4.333,0.111,0.0

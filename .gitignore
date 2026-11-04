@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+*.token
+hf_token*
+
+# Model weights and large activation captures (frozen axes under artifacts/
+# are small and committed, so *.pt is not ignored)
+*.safetensors
+*.bin
+*.ckpt
+hf_cache/
+*_acts_all_layers.pt
+
+# Local working space (only its README is tracked)
+scratch/*
+!scratch/README.md
+data/
+
+# LaTeX build output
+paper/**/*.aux
+paper/**/*.bbl
+paper/**/*.blg
+paper/**/*.fdb_latexmk
+paper/**/*.fls
+paper/**/*.log
+paper/**/*.out
+paper/**/*.synctex.gz
+paper/**/*.toc
+paper/main.pdf
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,15 @@
+# Core library (src/) and figure script (scripts/paper_figures.py)
+torch>=2.1
+transformers>=4.50  # Gemma 3 support
+huggingface_hub
+safetensors
+numpy
+pandas
+scipy
+matplotlib
+
+# Notebooks
+datasets
+scikit-learn
+openai  # GPT-4.1 / GPT-4o judges; needs OPENAI_API_KEY
+jlens @ git+https://github.com/anthropics/jacobian-lens  # notebooks/analysis/jacobian_lens*.ipynb only

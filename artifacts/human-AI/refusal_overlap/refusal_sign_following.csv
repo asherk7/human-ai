@@ -1,0 +1,4 @@
+arm,monotone,n,lo,hi,mean_shift_down,mean_shift_up,math_ok,degen
+ours,10,10,0.72,1.0,-128.7,29.2,True,0.09
+random,0,10,0.0,0.28,-40.9,-60.0,False,0.18
+refusal,0,10,0.0,0.28,-65.7,-48.0,False,0.191

@@ -1,0 +1,43 @@
+{
+ "model": "gemma12",
+ "model_id": "google/gemma-3-12b-it",
+ "readout_layer": 33,
+ "companion_layer": 38,
+ "role_auc_readout": 0.3569778657731749,
+ "role_auc_companion": 0.21593562798253627,
+ "role_swap_readout_pts": 8.587900021748277,
+ "role_swap_companion_pts": -207.82346925757452,
+ "lens_ai_pole": "analogous | developers | cryptographic | computationally | convolutional | \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439 | algorithms | computational",
+ "lens_human_pole": "shitty | \uadf8\ub0e5 | crappy | \u0c1a\u0c3f\u0c28\u0c4d\u0c28 | stupid | fucked | craziness | miserable",
+ "cohens_d_readout": 2.037272691726685,
+ "cos_pc1_readout": 0.0400315448641777,
+ "axis_kept_readout": 0.9991984164397916,
+ "friend_mode_is_most_human": true,
+ "refusal_minus_benign_pts": 34.65472657449555,
+ "formal_is_nearest_zero": false,
+ "heat_ai_para_pts": 113.56612943617428,
+ "heat_human_para_pts": -5.261279460707159,
+ "heat_neutral_news_pts": -0.6682264594799482,
+ "heat_ordered": true,
+ "content_confound": true,
+ "eval_null_replicates": true,
+ "eval_null_aucs": {
+  "19": 0.494,
+  "33": 0.433,
+  "38": 0.338
+ },
+ "identity_bleed_pts": 45.29617459781684,
+ "identity_bleed_ci": [
+  34.7,
+  56.9
+ ],
+ "identity_bleed_replicates": true,
+ "identity_bleed_companion_pts": 46.54089145782174,
+ "identity_bleed_companion_ci": [
+  13.7,
+  74.8
+ ],
+ "segment_final_minus_cot_pts": 31.331625502388214,
+ "segment_n_items": 8,
+ "suite_minutes": 19.0
+}

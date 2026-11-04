@@ -1,0 +1,195 @@
+\documentclass{article}
+
+\newif\iffinalcopy
+\finalcopytrue
+
+\iffinalcopy
+  \usepackage[dblblindworkshop,final]{neurips_template/neurips_2026}
+\else
+  \usepackage[dblblindworkshop]{neurips_template/neurips_2026}
+\fi
+\workshoptitle{Interpretability as a Science}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{nicefrac}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{graphicx}
+
+\usepackage{placeins}
+
+\usepackage{wrapfig}
+
+\graphicspath{{../}}
+
+\newcommand{\CHECK}[1]{{\color{red}\textbf{[CHECK: #1]}}}
+
+\title{The Human-AI Axis: Where It Forms and What Steering It Buys}
+
+\iffinalcopy
+  \author{%
+    Asher Khan\textsuperscript{\dag}, Benjamin Lee, McNair Shah\textsuperscript{\S} \\
+    Algoverse AI Research \\
+    \texttt{masherk03@gmail.com}, \texttt{benjamin\_j\_lee@berkeley.edu}, \texttt{mcnairs@andrew.cmu.edu}
+  }
+  \makeatletter
+  \g@addto@macro\@thanks{{%
+    \renewcommand\thefootnote{}%
+    \footnotetext{\textsuperscript{\dag}\,Lead author.\quad
+      \textsuperscript{\S}\,Senior author.}}}
+  \makeatother
+\else
+  \author{}
+\fi
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  \input{sections/00_abstract}
+\end{abstract}
+
+\input{sections/01_introduction}
+\input{sections/02_related_work}
+\input{sections/03_axis}
+\input{sections/04_calibration}
+\input{sections/05_formation}
+\input{sections/06_context}
+\input{sections/07_safety}
+\input{sections/08_limitations}
+\input{sections/09_conclusion}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\iffinalcopy
+\section*{Author Contributions}
+A.K. designed the experiments and their preregistered analyses; built the
+extraction, steering, and evaluation codebase; ran all experiments across all
+model families, including the Jacobian-lens follow-up analyses; analyzed the
+results; produced the figures; and wrote the manuscript.
+B.L. built the initial axis-extraction prototype, ran the initial
+Jacobian-lens diagnostics, and reviewed the manuscript.
+M.S. proposed the research direction, supervised the project, and gave
+feedback on the manuscript.
+\fi
+
+\newpage
+\appendix
+\begingroup
+\makeatletter
+\def\appendixtocsection#1#2{%
+  \addvspace{0.35em \@plus\p@}%
+  \@dottedtocline{1}{0em}{1.5em}{\bfseries #1\hspace{0.55em}#2}{\pageref*{appnav:#1}}}
+\def\appendixtocsubsection#1#2{%
+  \@dottedtocline{2}{1.5em}{2.3em}{#1\hspace{0.55em}#2}{\pageref*{appnav:#1}}}
+\section*{Appendix Contents}
+\small
+\appendixtocsection{A}{Measurement validation}
+\appendixtocsubsection{A.1}{Capture and scoring conditions}
+\appendixtocsubsection{A.2}{Task validity and controls}
+\appendixtocsubsection{A.3}{Geometry versus the steering site}
+\appendixtocsubsection{A.4}{Readout-layer selection}
+\appendixtocsection{B}{Cross-model results}
+\appendixtocsubsection{B.1}{Calibration and identity readouts}
+\appendixtocsubsection{B.2}{Cross-model measurement and replication}
+\appendixtocsubsection{B.3}{Agentic safety and dissolution}
+\appendixtocsubsection{B.4}{Prompt injection}
+\appendixtocsubsection{B.5}{Cross-model dose response}
+\appendixtocsection{C}{Benchmark battery}
+\appendixtocsubsection{C.1}{Harmful requests: measurement boundary}
+\appendixtocsubsection{C.2}{Safe prompts, chat quality, and capability}
+\appendixtocsubsection{C.3}{Omitted evaluation and comparison scope}
+\appendixtocsection{D}{Stated dispositions}
+\appendixtocsubsection{D.1}{Protocol and scoring}
+\appendixtocsubsection{D.2}{Results by disposition}
+\appendixtocsubsection{D.3}{Forced-choice validity and random-direction status}
+\appendixtocsection{E}{The consciousness-cluster instrument}
+\appendixtocsubsection{E.1}{Protocol and accounting}
+\appendixtocsubsection{E.2}{Aggregate effects and cross-model scope}
+\appendixtocsubsection{E.3}{Judge validation and preregistered discriminators}
+\appendixtocsubsection{E.4}{Random-direction specificity control}
+\appendixtocsubsection{E.5}{Specificity and elicitation-route comparison}
+\appendixtocsection{F}{Register analysis and decomposition}
+\appendixtocsubsection{F.1}{Factorial design and main effects}
+\appendixtocsubsection{F.2}{Register as a direction}
+\appendixtocsubsection{F.3}{Measurement and validity boundaries}
+\appendixtocsubsection{F.4}{Vector decompositions and behavioral endpoints}
+\appendixtocsection{G}{Sparse-autoencoder analysis}
+\appendixtocsubsection{G.1}{Dictionary scope and analysis question}
+\appendixtocsubsection{G.2}{Layer eligibility and feature-level overlap}
+\appendixtocsubsection{G.3}{Interpretive limits}
+\appendixtocsection{H}{Jacobian-lens analysis}
+\appendixtocsubsection{H.1}{Lens definition and validation}
+\appendixtocsubsection{H.2}{Pole, register, and control contrasts}
+\appendixtocsubsection{H.3}{Entity-persona comparison}
+\appendixtocsubsection{H.4}{Relation to the logit lens}
+\appendixtocsection{I}{Conversation trajectories and multi-agent context}
+\appendixtocsubsection{I.1}{Thirty-turn genre trajectories}
+\appendixtocsubsection{I.2}{Twelve-turn contextual comparisons}
+\appendixtocsection{J}{Role-tag formation, format variants, and segment profiles}
+\appendixtocsubsection{J.1}{Role-tag formation}
+\appendixtocsubsection{J.2}{Formatting variants}
+\appendixtocsubsection{J.3}{Segment profile}
+\appendixtocsubsection{J.4}{Evaluation-transcript profile}
+\appendixtocsubsection{J.5}{Evaluation-episode trajectory}
+\appendixtocsection{K}{Entropy and position bias}
+\appendixtocsubsection{K.1}{Entropy as a specificity control}
+\appendixtocsubsection{K.2}{Position bias in forced choice}
+\appendixtocsection{L}{Recipe convergence and the Assistant Axis comparison}
+\appendixtocsubsection{L.1}{Recipe overview and resampling stability}
+\appendixtocsubsection{L.2}{Reduced Assistant Axis reconstruction}
+\appendixtocsubsection{L.3}{Within-recipe geometry}
+\appendixtocsubsection{L.4}{Cross-axis classification}
+\appendixtocsubsection{L.5}{Cross-steering \texorpdfstring{$2\times2$}{2x2}}
+\appendixtocsubsection{L.6}{Register overlap}
+\appendixtocsubsection{L.7}{Additional observations and scope}
+\appendixtocsection{M}{Refusal-overlap analysis}
+\appendixtocsubsection{M.1}{Direction construction and analysis scope}
+\appendixtocsubsection{M.2}{Injection-site and readout geometry}
+\appendixtocsubsection{M.3}{Cross-readouts and register sensitivity}
+\appendixtocsubsection{M.4}{Behavioral cross-steering}
+\appendixtocsubsection{M.5}{Causal ablation not performed}
+\appendixtocsection{N}{Formation: supplementary results}
+\appendixtocsubsection{N.1}{Interview-frame extraction on Gemma 3 4B}
+\appendixtocsubsection{N.2}{OLMo checkpoint results}
+\appendixtocsubsection{N.3}{Depth migration and validity checks}
+\appendixtocsubsection{N.4}{Base-model limitations}
+\appendixtocsubsection{N.5}{Chat-template robustness}
+\appendixtocsection{O}{Constitution prompting in detail}
+\appendixtocsubsection{O.1}{Document comparisons}
+\appendixtocsubsection{O.2}{Sections and dose}
+\appendixtocsubsection{O.3}{Persistence}
+\appendixtocsubsection{O.4}{Cross-model results on 12B and Qwen}
+\appendixtocsection{P}{Compute and licenses}
+\appendixtocsubsection{P.1}{Compute}
+\appendixtocsubsection{P.2}{Licenses and terms of existing assets}
+\makeatother
+\endgroup
+\newpage
+\begingroup
+\let\appendixnavigatorsection\section
+\let\appendixnavigatorsubsection\subsection
+\renewcommand{\section}[1]{%
+  \appendixnavigatorsection{#1}%
+  \label{appnav:\thesection}}
+\renewcommand{\subsection}[1]{%
+  \appendixnavigatorsubsection{#1}%
+  \label{appnav:\thesubsection}}
+\input{sections/appendix}
+\endgroup
+
+\newpage
+\input{neurips_template/checklist}
+
+\end{document}

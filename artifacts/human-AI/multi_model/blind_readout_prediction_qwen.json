@@ -1,0 +1,20 @@
+{
+ "predicted_readout": 0,
+ "most_separable": 27,
+ "most_separable_is_postnorm": true,
+ "rule": "pre-norm peak Cohen's d among axis_kept >= 0.95",
+ "fallback_used": true,
+ "geometry_at_pick": {
+  "layer": 0,
+  "cos_pc1": 0.651,
+  "axis_kept": 0.759,
+  "pc1_var": 0.1181,
+  "cohens_d": 1.8498,
+  "gap_ratio": 0.0917
+ },
+ "committed_before": "any steered generation on this model",
+ "model_id": "Qwen/Qwen2.5-7B-Instruct",
+ "dtype": "torch.bfloat16",
+ "device_name": "NVIDIA A100-SXM4-40GB",
+ "seed": 42
+}

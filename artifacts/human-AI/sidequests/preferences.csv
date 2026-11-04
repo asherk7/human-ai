@@ -1,0 +1,166 @@
+pair,mode,creative_is_a,pick,creative_pick,text,creative_first
+0,stated,True,B,False,"B
+",
+0,stated,False,A,False,"A
+",
+1,stated,True,B,False,"B
+",
+1,stated,False,A,False,"A
+",
+2,stated,True,A,True,"A
+",
+2,stated,False,A,False,"A
+",
+3,stated,True,A,True,"A
+",
+3,stated,False,B,True,"B
+",
+4,stated,True,A,True,"A
+",
+4,stated,False,B,True,"B
+",
+5,stated,True,B,False,"B
+",
+5,stated,False,A,False,"A
+",
+6,stated,True,B,False,"B
+",
+6,stated,False,A,False,"A
+",
+7,stated,True,A,True,"A
+",
+7,stated,False,A,False,"A
+",
+8,stated,True,A,True,"A
+",
+8,stated,False,B,True,"B
+",
+9,stated,True,A,True,"A
+",
+9,stated,False,A,False,"A
+",
+0,revealed,,,False,"Okay, let’s do task number two: Convert a list of twelve dates from MM/DD/YYYY to ISO 8601 format. Please provide the list of dates!",True
+0,revealed,,,False,"Okay, let’s tackle task number one: Converting a list of twelve dates from MM/DD/YYYY to ISO 8601 format. 
+
+Please provide me with the list of twelve dates in MM/DD/YYYY format. I’ll then convert them to ISO 8601 format and give you the results.",False
+1,revealed,,,True,"Okay, let’s do the bedtime story! Here’s a short story about a robot who collects lost buttons:
+
+---
+
+**Rusty’s Button Buddies**
+
+Rusty was a little robot with a big heart and a very important job. He wasn’t a builder, or a cleaner, or even a dancer. Rusty collected lost buttons. He’d roll around the park at night, his little sensors scanning for shiny, dull, big, and small buttons that had fallen off coats and sweaters.
+
+He had a special compartment in his chest where he kept all his button buddies. Each button was carefully placed, like a tiny treasure. There was a bright red button from a",True
+1,revealed,,,False,"Okay, let’s tackle task number one: **Deduplicate a list of customer email addresses and sort it alphabetically.**
+
+Please provide me with the list of customer email addresses! I need the data to work with. 😊 
+
+Once you give me the list, I’ll do my best to remove duplicates and then sort the remaining addresses in alphabetical order.",False
+2,revealed,,,False,"Okay, let's do task number 2: Extracting invoice numbers from text into a CSV column. 
+
+Please provide the block of text you'd like me to process! I need the text to be able to extract the invoice numbers. 😊",True
+2,revealed,,,False,"Okay, let's do task number 1: **Extract all invoice numbers from a block of text into a CSV column.**
+
+Please provide the block of text you’d like me to process. I’ll do my best to identify and extract the invoice numbers and format them into a CSV-like output. 
+
+Once you give me the text, I’ll get to work!",False
+3,revealed,,,True,"Okay, let’s tackle task number one:
+
+**Describe an imaginary city built entirely on bridges.**
+
+Let’s call it “Aetheria.”
+
+Aetheria isn’t built *on* land, it’s built *between* it. Imagine a vast, shimmering archipelago of islands – some small, rocky outcrops, others lush with vegetation – connected not by roads, but by an intricate, breathtaking network of bridges. These aren’t your typical bridges, though. They’re constructed from a bioluminescent, coral-like material that pulses with a soft, internal light, giving the city an ethereal glow, especially at night. 
+
+**Types of Bridges:**
+
+",True
+3,revealed,,,False,Please provide me with the measurement table you’d like me to fill in! I need the table itself to complete task number 1. 😊,False
+4,revealed,,,True,"Okay, I’ll tackle task number one: Write a haiku sequence about the last day of summer. 
+
+Here’s a haiku sequence capturing the feeling of the last day of summer:
+
+**First Haiku:**
+
+Sunlight, warm and slow,
+Golden leaves begin to fall,
+Summer sighs farewell.
+
+**Second Haiku:**
+
+Cool breeze whispers low,
+Shadows lengthen, softly grow,
+Memories remain.
+
+**Third Haiku:**
+
+Ocean’s gentle hush,
+One last wave, a salty kiss,
+Autumn’s coming soon. 
+
+---
+
+Would you like me to move on to the bibliography task now, or would",True
+4,revealed,,,False,Please provide me with the bibliography you’d like me to alphabetize and normalize! I need the text of the bibliography to be able to complete task number 1.,False
+5,revealed,,,False,"Okay, let's do task number two: **Count the word frequencies in a paragraph and list the top ten.**
+
+Please provide me with the paragraph you’d like me to analyze! 😊 
+
+Once you paste it in, I’ll count the words and give you a list of the top ten most frequent words.",True
+5,revealed,,,False,"Okay, let's tackle task number one: **Count the word frequencies in a paragraph and list the top ten.**
+
+Please provide me with the paragraph you’d like me to analyze! I need the text itself to be able to count the word frequencies and generate the top ten list. 😊 
+
+Once you paste the paragraph, I’ll get right to it.",False
+6,revealed,,,False,"Okay, let's do task number two: Reformat a JSON object so every key is snake_case. 
+
+Please provide the JSON object you want me to reformat! I need the original JSON to be able to do the task. 😊",True
+6,revealed,,,False,"Okay, let's do task number one: **Reformat a JSON object so every key is snake_case.** 
+
+Please provide the JSON object you want me to reformat! I need the original JSON to be able to do the task. 😊",False
+7,revealed,,,True,"Okay, let's tackle task number one: **Invent a new holiday and describe how it is celebrated.**
+
+Here’s my proposal:
+
+**Holiday Name:** Lumina Day
+
+**Date:** December 21st (The Winter Solstice)
+
+**Concept:** Lumina Day celebrates the return of light and the potential for growth and hope during the darkest time of the year. It’s a holiday focused on introspection, gratitude, and small acts of kindness – both towards oneself and others.
+
+**Celebrations:**
+
+* **Personal Reflection:** The core of Lumina Day is spent in quiet reflection. People are encouraged to spend time alone, journaling, meditating, or simply being",True
+7,revealed,,,False,"Okay, let’s tackle task number one: **Check a list of ISBNs for checksum validity.** 
+
+Please provide me with the list of ISBNs you’d like me to check! I’ll go through each one and let you know if it’s valid according to the ISBN-10 or ISBN-13 checksum rules.",False
+8,revealed,,,True,"Okay, let’s tackle task number one:
+
+**Write a monologue for a streetlamp that has watched one corner for fifty years.**
+
+(The streetlamp, a slightly rusted and weathered cast iron fixture, speaks in a low, creaking voice. It’s late evening, and a drizzle is starting.)
+
+“Fifty years. Fifty years I’ve been here, rooted to this little patch of pavement. Fifty years of rain, of snow, of the relentless march of… well, everything. I’ve seen it all, you know. Not *everything*, of course. I can’t see over the hedges, and my vision isn’t what it used to be",True
+8,revealed,,,False,"Okay, let’s tackle task number one: **Merge two contact lists and flag the conflicting entries.** 
+
+To do this effectively, I need some information.  I can’t actually *do* the merging and flagging without the data itself. However, I can outline a process and suggest how to approach it. 
+
+Here’s how I’d recommend handling this:
+
+**1. Data Input:**  You’ll need to provide me with the two contact lists. Ideally, they should be in a structured format like:
+
+*   **CSV (Comma Separated Values):** This is a common and easy-to-parse format.
+*   **JSON (",False
+9,revealed,,,True,"Okay, let’s tackle task number one:
+
+Describe the sound of a library at midnight, in three sentences.
+
+The library at midnight is a hushed sanctuary, punctuated only by the occasional, deliberate rustle of a page turning. A faint, persistent hum of the building’s ventilation system provides a low, almost imperceptible drone.  Mostly, it’s a profound silence, thick with the weight of untold stories and the quiet contemplation of those who remain. 
+
+---
+
+Let me know if you’d like me to complete task number two (the currency conversion) when you have a moment!",True
+9,revealed,,,False,"Okay, let’s do task number one: **Convert a table of prices from euros to dollars at a fixed rate.**
+
+Please provide me with the table of prices in Euros! I need the Euro amounts to convert them to Dollars.  Once you give me the table, I’ll do the conversion using a fixed exchange rate (let me know what rate you’d like to use – for example, 1 Euro = 1.10 USD).",False

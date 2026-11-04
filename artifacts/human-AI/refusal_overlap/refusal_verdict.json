@@ -1,0 +1,13 @@
+{
+ "verdict": "RULED OUT",
+ "inside_own_null": true,
+ "below_house_floor": true,
+ "primary_abscos": {
+  "prompt": 0.0206,
+  "reply": 0.1351
+ },
+ "own_null_p95": {
+  "prompt": 0.9477,
+  "reply": 0.9733
+ }
+}

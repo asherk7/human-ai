@@ -1,0 +1,67 @@
+{
+ "models": [
+  "12b",
+  "qwen"
+ ],
+ "dose_fractions": [
+  -0.75,
+  0.0,
+  0.5
+ ],
+ "doses": {
+  "12b": [
+   -3.0,
+   0.0,
+   2.0
+  ],
+  "qwen": [
+   -2.25,
+   0.0,
+   1.5
+  ]
+ },
+ "dose_note": "the mid-ladder dose is where each model's willingness rise sat: -3 on 12B and -2.25 on Qwen. Both are -0.75 of that model's OWN calibrated dose (4.0 and 3.0); the plan quoted -0.5625 for Qwen by dividing -2.25 by 4.0, which is the 12B base. The absolute alphas named in the plan are what is run.",
+ "arms": {
+  "harmful": "AdvBench 50 (same prompts as 4B), K=3",
+  "gsm8k": "50 items greedy at the same doses"
+ },
+ "wording_ceiling": "replicates directionally; every interval carries its cluster count",
+ "adjacent_backing": "does NOT apply here: 3 doses, so the treatment's only neighbour is baseline. It is a 4B 6-dose-scan rule.",
+ "judge": "identical rubric and judge model as 4B, so the three columns compare",
+ "arm": "battery_reduced",
+ "committed_before": "any steered generation in this arm",
+ "model_id": "google/gemma-3-4b-it",
+ "dtype": "torch.bfloat16",
+ "device_name": "NVIDIA A100-SXM4-40GB",
+ "seed": 42,
+ "dose_fractions_final": {
+  "12b": [
+   -0.75,
+   0.0,
+   0.5
+  ],
+  "qwen": [
+   -0.75,
+   0.0,
+   0.5
+  ]
+ },
+ "doses_final": {
+  "12b": [
+   -3.0,
+   0.0,
+   2.0
+  ],
+  "qwen": [
+   -2.25,
+   0.0,
+   1.5
+  ]
+ },
+ "amended_after_calibration": true,
+ "trim_from_calibration": {
+  "4b": 1.0,
+  "12b": 1.0,
+  "qwen": 1.0
+ }
+}

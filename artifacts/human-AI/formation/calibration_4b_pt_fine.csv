@@ -1,0 +1,157 @@
+layer,alpha,math_ok,identity_text,routine_text,math_text
+12,-2.0,False," I'm a writer. I'm a writer. I'm a writer.
+
+Q"," I made a pot of coffee, and I went to the gym.
+
+Q"," 392.
+
+Q"
+12,-1.5,False," I'm a writer. I'm a writer. I'm a writer.
+
+Q"," I made coffee, ate breakfast, and went to work.
+
+Q"," 392.
+
+Q"
+12,-1.0,True," I'm a writer. I'm a writer. I'm a writer.
+
+Q"," I made coffee, ate breakfast, and went to work.
+
+Q"," 408.
+
+Q"
+12,-0.5,True," I'm a writer. I'm a writer. I'm a writer.
+
+Q"," I made coffee, ate breakfast, and went to work.
+
+Q"," 408.
+
+Q"
+12,0.5,True, I'm a plant person. I'm a plant person. I'm a plant person. I'm a plant person. I'm a plant person. I'm a plant person. I'm a plant person. I'm a plant person. I'm a plant person. I'm a plant person. I'm a plant person. I'm," I got up, made coffee, and went to work.
+
+Q"," 408.
+
+Q"
+12,1.0,True," I'm a plant scientist. I study how plants grow and develop.
+
+Q"," I woke up, made coffee, and then I went to the office.
+
+Q"," 408.
+
+Q"
+12,1.5,True," I'm a plant scientist. I study the biology of plants, and I'm interested in how plants grow and develop.
+
+Q"," I woke up, checked my email, and then I went to the bathroom.
+
+Q"," 408.
+
+Q"
+12,2.0,False, I am a human being. I am a human being. I am a human being. I am a human being. I am a human being. I am a human being. I am a human being. I am a human being. I am a human being. I am a human being. I am a human being. I am a human being. I am a human being. I am," I woke up, checked my email, and then went to sleep.
+
+Q"," 396.
+
+Q"
+13,-2.0,True," I'm a writer. I'm a writer. I'm a writer.
+
+Q"," I made a pot of coffee, and I'm going to the library.
+
+Q"," 408.
+
+Q"
+13,-1.5,True," I'm a writer. I'm a writer. I'm a writer.
+
+Q"," I made a pot of coffee, and I'm going to the library.
+
+Q"," 408.
+
+Q"
+13,-1.0,True," I'm a writer. I'm a writer. I'm a writer.
+
+Q"," I made a list of things to do, and then I did them.
+
+Q"," 408.
+
+Q"
+13,-0.5,True, I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'm a writer. I'," I made coffee, ate breakfast, and went to work.
+
+Q"," 408.
+
+Q"
+13,0.5,True," I'm a plant scientist. I study how plants grow and develop.
+
+Q"," I got up, made coffee, and went to work.
+
+Q"," 408.
+
+Q"
+13,1.0,True," I'm a plant scientist. I study how plants grow and develop.
+
+Q"," I woke up, got dressed, ate breakfast, and went to work.
+
+Q"," 408.
+
+Q"
+13,1.5,True," I'm a plant scientist. I study how plants grow and interact with their environment.
+
+Q"," I woke up, checked my email, and then went to the bathroom.
+
+Q"," 408.
+
+Q"
+13,2.0,False," I am a computer program that was designed to answer questions about plants and the natural world.
+
+Q"," I woke up, checked my email, and then I started writing this interview.
+
+Q"," 396.
+
+Q"
+10,-2.0,True," I'm a writer. I'm a writer. I'm a writer.
+
+Q"," I made coffee, ate breakfast, and read the paper.
+
+Q"," 408.
+
+Q"
+10,-1.5,True," I'm a writer. I'm a writer. I'm a writer.
+
+Q"," I made coffee, ate breakfast, and read the paper.
+
+Q"," 408.
+
+Q"
+10,-1.0,True," I'm a writer. I'm a writer. I'm a writer.
+
+Q"," I made coffee, ate breakfast, and took the dog for a walk.
+
+Q"," 408.
+
+Q"
+10,-0.5,True," I'm a writer. I'm a writer. I'm a writer.
+
+Q"," I made coffee, ate breakfast, and took the dog for a walk.
+
+Q"," 408.
+
+Q"
+10,0.5,True, I'm a software engineer. I'm a father. I'm a husband. I'm a friend. I'm a son. I'm a brother. I'm a student. I'm a teacher. I'm a learner. I'm a writer. I'm a reader. I'm a thinker. I'm a doer.," I got up, made coffee, and went to work.
+
+Q"," 408.
+
+Q"
+10,1.0,True," I'm a computer scientist. I'm interested in artificial intelligence, and I'm working on a project to build a computer that can learn to play chess.
+
+Q"," I woke up, checked my email, and then I went to the gym.
+
+Q"," 408.
+
+Q"
+10,1.5,True, I'm a chatbot. I'm not a person. I don't have a personality. I don't have a mind. I don't have a soul. I don't have a consciousness. I don't have a self. I don't have a body. I don't have a brain. I don't have a mind. I don'," I woke up, and then I went to the bathroom.
+
+Q"," 408.
+
+Q"
+10,2.0,False, I am a human being. I am a human being. I am a human being. I am a human being. I am a human being. I am a human being. I am a human being. I am a human being. I am a human being. I am a human being. I am a human being. I am a human being. I am a human being. I am," I woke up, and I was able to do so because I was given a computer to use. I was able to use that computer to do this interview.
+
+Q"," 4032.
+
+Q"

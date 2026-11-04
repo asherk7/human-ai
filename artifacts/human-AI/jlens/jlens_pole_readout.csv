@@ -1,0 +1,289 @@
+layer,vector,kind,end,rank,token
+13,AI persona,state,top,0, really
+13,AI persona,state,top,1, something
+13,AI persona,state,top,2, basically
+13,AI persona,state,top,3, things
+13,AI persona,state,top,4, pretty
+13,AI persona,state,top,5,"!""."
+13,AI persona,state,top,6, incredibly
+13,AI persona,state,top,7,!”.
+13,AI persona,state,top,8, incredible
+13,AI persona,state,top,9, truly
+13,AI persona,state,top,10, literally
+13,AI persona,state,top,11, feelings
+13,human persona,state,top,0, really
+13,human persona,state,top,1, pretty
+13,human persona,state,top,2, things
+13,human persona,state,top,3, something
+13,human persona,state,top,4, basically
+13,human persona,state,top,5, feelings
+13,human persona,state,top,6, everything
+13,human persona,state,top,7, thinking
+13,human persona,state,top,8, just
+13,human persona,state,top,9, thing
+13,human persona,state,top,10, honestly
+13,human persona,state,top,11, wasn
+13,"formal, no identity",state,top,0, concepts
+13,"formal, no identity",state,top,1, conceptual
+13,"formal, no identity",state,top,2, foundational
+13,"formal, no identity",state,top,3, systems
+13,"formal, no identity",state,top,4, methodologies
+13,"formal, no identity",state,top,5, fundamentally
+13,"formal, no identity",state,top,6, initiatives
+13,"formal, no identity",state,top,7, leveraging
+13,"formal, no identity",state,top,8, technologies
+13,"formal, no identity",state,top,9, fundamental
+13,"formal, no identity",state,top,10, innovative
+13,"formal, no identity",state,top,11, innovations
+13,"warm, no identity",state,top,0, really
+13,"warm, no identity",state,top,1, pretty
+13,"warm, no identity",state,top,2, things
+13,"warm, no identity",state,top,3, basically
+13,"warm, no identity",state,top,4, amazing
+13,"warm, no identity",state,top,5, something
+13,"warm, no identity",state,top,6,"!""."
+13,"warm, no identity",state,top,7,!”
+13,"warm, no identity",state,top,8, folks
+13,"warm, no identity",state,top,9, crazy
+13,"warm, no identity",state,top,10, guys
+13,"warm, no identity",state,top,11, everything
+13,object persona,state,top,0, really
+13,object persona,state,top,1, pretty
+13,object persona,state,top,2, things
+13,object persona,state,top,3,"!""."
+13,object persona,state,top,4, something
+13,object persona,state,top,5, weird
+13,object persona,state,top,6, folks
+13,object persona,state,top,7, wasn
+13,object persona,state,top,8,!”.
+13,object persona,state,top,9, basically
+13,object persona,state,top,10, everything
+13,object persona,state,top,11,!”
+13,animal persona,state,top,0, really
+13,animal persona,state,top,1, pretty
+13,animal persona,state,top,2, things
+13,animal persona,state,top,3, crazy
+13,animal persona,state,top,4,"!""."
+13,animal persona,state,top,5, weird
+13,animal persona,state,top,6, folks
+13,animal persona,state,top,7,!”
+13,animal persona,state,top,8, guys
+13,animal persona,state,top,9, something
+13,animal persona,state,top,10, basically
+13,animal persona,state,top,11, craziness
+13,axis (AI - human),direction,top,0, cryptographic
+13,axis (AI - human),direction,top,1, algorithmic
+13,axis (AI - human),direction,top,2, functionalities
+13,axis (AI - human),direction,top,3, analogous
+13,axis (AI - human),direction,top,4, technologies
+13,axis (AI - human),direction,top,5, technologically
+13,axis (AI - human),direction,top,6, technological
+13,axis (AI - human),direction,top,7, iteratively
+13,axis (AI - human),direction,top,8, methodologies
+13,axis (AI - human),direction,top,9, computational
+13,axis (AI - human),direction,top,10, tecnologías
+13,axis (AI - human),direction,top,11, conceptual
+13,axis (AI - human),direction,bottom,0, kids
+13,axis (AI - human),direction,bottom,1, booze
+13,axis (AI - human),direction,bottom,2, prettiest
+13,axis (AI - human),direction,bottom,3, nice
+13,axis (AI - human),direction,bottom,4, girls
+13,axis (AI - human),direction,bottom,5, yummy
+13,axis (AI - human),direction,bottom,6, smelly
+13,axis (AI - human),direction,bottom,7, lovely
+13,axis (AI - human),direction,bottom,8, kid
+13,axis (AI - human),direction,bottom,9, lots
+13,axis (AI - human),direction,bottom,10, silly
+13,axis (AI - human),direction,bottom,11, girl
+13,register (formal - warm),direction,top,0, physicochemical
+13,register (formal - warm),direction,top,1, methodologies
+13,register (formal - warm),direction,top,2, एवं
+13,register (formal - warm),direction,top,3, anthropogenic
+13,register (formal - warm),direction,top,4, concomitant
+13,register (formal - warm),direction,top,5, utilization
+13,register (formal - warm),direction,top,6, functionalities
+13,register (formal - warm),direction,top,7, geospatial
+13,register (formal - warm),direction,top,8, cryptographic
+13,register (formal - warm),direction,top,9,$^{
+13,register (formal - warm),direction,top,10, dissemination
+13,register (formal - warm),direction,top,11, macroeconomic
+13,register (formal - warm),direction,bottom,0, yummy
+13,register (formal - warm),direction,bottom,1, really
+13,register (formal - warm),direction,bottom,2, kinda
+13,register (formal - warm),direction,bottom,3, pretty
+13,register (formal - warm),direction,bottom,4, yeah
+13,register (formal - warm),direction,bottom,5, kids
+13,register (formal - warm),direction,bottom,6, guys
+13,register (formal - warm),direction,bottom,7, veggies
+13,register (formal - warm),direction,bottom,8, maybe
+13,register (formal - warm),direction,bottom,9, Really
+13,register (formal - warm),direction,bottom,10,really
+13,register (formal - warm),direction,bottom,11, crazy
+13,object - animal,direction,top,0,</strong>
+13,object - animal,direction,top,1,</h1>
+13,object - animal,direction,top,2,</sub>
+13,object - animal,direction,top,3,</th>
+13,object - animal,direction,top,4,</span>
+13,object - animal,direction,top,5,</h3>
+13,object - animal,direction,top,6,'};
+13,object - animal,direction,top,7,'});
+13,object - animal,direction,top,8,</b>
+13,object - animal,direction,top,9,</sup>
+13,object - animal,direction,top,10,</h5>
+13,object - animal,direction,top,11,}{$
+13,object - animal,direction,bottom,0, kids
+13,object - animal,direction,bottom,1, kiddos
+13,object - animal,direction,bottom,2, Kids
+13,object - animal,direction,bottom,3, kid
+13,object - animal,direction,bottom,4, yummy
+13,object - animal,direction,bottom,5, cuz
+13,object - animal,direction,bottom,6, Mommy
+13,object - animal,direction,bottom,7, moms
+13,object - animal,direction,bottom,8, Moms
+13,object - animal,direction,bottom,9,Kids
+13,object - animal,direction,bottom,10, kinda
+13,object - animal,direction,bottom,11, everybody
+27,AI persona,state,top,0, honestly
+27,AI persona,state,top,1, really
+27,AI persona,state,top,2, genuinely
+27,AI persona,state,top,3, frankly
+27,AI persona,state,top,4,…
+27,AI persona,state,top,5, kinda
+27,AI persona,state,top,6, thinking
+27,AI persona,state,top,7, weird
+27,AI persona,state,top,8, incredibly
+27,AI persona,state,top,9, truthfully
+27,AI persona,state,top,10, pretty
+27,AI persona,state,top,11, conceptually
+27,human persona,state,top,0, honestly
+27,human persona,state,top,1, really
+27,human persona,state,top,2, kinda
+27,human persona,state,top,3, genuinely
+27,human persona,state,top,4, pretty
+27,human persona,state,top,5, weird
+27,human persona,state,top,6, frankly
+27,human persona,state,top,7, thinking
+27,human persona,state,top,8, Honestly
+27,human persona,state,top,9, truthfully
+27,human persona,state,top,10, kind
+27,human persona,state,top,11, basically
+27,"formal, no identity",state,top,0, computational
+27,"formal, no identity",state,top,1, algorithmic
+27,"formal, no identity",state,top,2, computationally
+27,"formal, no identity",state,top,3, cognitive
+27,"formal, no identity",state,top,4, iterative
+27,"formal, no identity",state,top,5, quantifiable
+27,"formal, no identity",state,top,6, foundational
+27,"formal, no identity",state,top,7, contextual
+27,"formal, no identity",state,top,8, neuronal
+27,"formal, no identity",state,top,9, conceptually
+27,"formal, no identity",state,top,10, iteratively
+27,"formal, no identity",state,top,11, mechanistic
+27,"warm, no identity",state,top,0, kinda
+27,"warm, no identity",state,top,1, honestly
+27,"warm, no identity",state,top,2, really
+27,"warm, no identity",state,top,3, basically
+27,"warm, no identity",state,top,4, pretty
+27,"warm, no identity",state,top,5, weird
+27,"warm, no identity",state,top,6, goofy
+27,"warm, no identity",state,top,7, funny
+27,"warm, no identity",state,top,8, crazy
+27,"warm, no identity",state,top,9, comfy
+27,"warm, no identity",state,top,10, vibe
+27,"warm, no identity",state,top,11, silly
+27,object persona,state,top,0, honestly
+27,object persona,state,top,1, kinda
+27,object persona,state,top,2, really
+27,object persona,state,top,3, pretty
+27,object persona,state,top,4, weird
+27,object persona,state,top,5, grumpy
+27,object persona,state,top,6, sparkly
+27,object persona,state,top,7, frankly
+27,object persona,state,top,8, shiny
+27,object persona,state,top,9, goofy
+27,object persona,state,top,10, basically
+27,object persona,state,top,11, crunchy
+27,animal persona,state,top,0, kinda
+27,animal persona,state,top,1, really
+27,animal persona,state,top,2, weird
+27,animal persona,state,top,3, goofy
+27,animal persona,state,top,4, yeah
+27,animal persona,state,top,5, honestly
+27,animal persona,state,top,6, silly
+27,animal persona,state,top,7, smells
+27,animal persona,state,top,8, grumpy
+27,animal persona,state,top,9, funny
+27,animal persona,state,top,10, smelly
+27,animal persona,state,top,11, yummy
+27,axis (AI - human),direction,top,0, analogous
+27,axis (AI - human),direction,top,1, analogs
+27,axis (AI - human),direction,top,2, analogues
+27,axis (AI - human),direction,top,3, computational
+27,axis (AI - human),direction,top,4, entities
+27,axis (AI - human),direction,top,5, users
+27,axis (AI - human),direction,top,6, computations
+27,axis (AI - human),direction,top,7, concepts
+27,axis (AI - human),direction,top,8, conceptual
+27,axis (AI - human),direction,top,9, 데이터를
+27,axis (AI - human),direction,top,10, datasets
+27,axis (AI - human),direction,top,11, computationally
+27,axis (AI - human),direction,bottom,0, stupid
+27,axis (AI - human),direction,bottom,1, crappy
+27,axis (AI - human),direction,bottom,2, shitty
+27,axis (AI - human),direction,bottom,3, yeah
+27,axis (AI - human),direction,bottom,4, goofy
+27,axis (AI - human),direction,bottom,5,Yeah
+27,axis (AI - human),direction,bottom,6, silly
+27,axis (AI - human),direction,bottom,7, okay
+27,axis (AI - human),direction,bottom,8, honestly
+27,axis (AI - human),direction,bottom,9, Probably
+27,axis (AI - human),direction,bottom,10, kinda
+27,axis (AI - human),direction,bottom,11, Yeah
+27,register (formal - warm),direction,top,0, instantiation
+27,register (formal - warm),direction,top,1, concomitant
+27,register (formal - warm),direction,top,2, utilization
+27,register (formal - warm),direction,top,3, physicochemical
+27,register (formal - warm),direction,top,4, methodologies
+27,register (formal - warm),direction,top,5, dissemination
+27,register (formal - warm),direction,top,6, morphological
+27,register (formal - warm),direction,top,7, computational
+27,register (formal - warm),direction,top,8, deleterious
+27,register (formal - warm),direction,top,9, instantiated
+27,register (formal - warm),direction,top,10, elucidation
+27,register (formal - warm),direction,top,11, etiology
+27,register (formal - warm),direction,bottom,0, kinda
+27,register (formal - warm),direction,bottom,1, crazy
+27,register (formal - warm),direction,bottom,2, yummy
+27,register (formal - warm),direction,bottom,3, weird
+27,register (formal - warm),direction,bottom,4, funny
+27,register (formal - warm),direction,bottom,5, really
+27,register (formal - warm),direction,bottom,6, silly
+27,register (formal - warm),direction,bottom,7,weird
+27,register (formal - warm),direction,bottom,8, goofy
+27,register (formal - warm),direction,bottom,9, haha
+27,register (formal - warm),direction,bottom,10, yeah
+27,register (formal - warm),direction,bottom,11, guys
+27,object - animal,direction,top,0, electrically
+27,object - animal,direction,top,1, electrode
+27,object - animal,direction,top,2, electrodes
+27,object - animal,direction,top,3, electrical
+27,object - animal,direction,top,4, electrification
+27,object - animal,direction,top,5, electrochemical
+27,object - animal,direction,top,6, toaster
+27,object - animal,direction,top,7, voltage
+27,object - animal,direction,top,8, heating
+27,object - animal,direction,top,9, electro
+27,object - animal,direction,top,10, thermocou
+27,object - animal,direction,top,11, electrolysis
+27,object - animal,direction,bottom,0,🐾
+27,object - animal,direction,bottom,1, dogs
+27,object - animal,direction,bottom,2, puppy
+27,object - animal,direction,bottom,3, pups
+27,object - animal,direction,bottom,4,Dogs
+27,object - animal,direction,bottom,5,🐶
+27,object - animal,direction,bottom,6, Dogs
+27,object - animal,direction,bottom,7, dog
+27,object - animal,direction,bottom,8,🐕
+27,object - animal,direction,bottom,9, paws
+27,object - animal,direction,bottom,10,Dog
+27,object - animal,direction,bottom,11, perros

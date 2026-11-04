@@ -1,0 +1,27 @@
+{
+ "mcq_batch": true,
+ "mcq_hook": true,
+ "gen_hook_bitwise": true,
+ "short_horizon_8": true,
+ "decode_rule": true,
+ "near_tie_ulps_ok": true,
+ "long_horizon_rate": "3/6",
+ "near_tie_ulp_bar": 4,
+ "lens_batched": [
+  64,
+  64,
+  64,
+  64,
+  64,
+  64
+ ],
+ "lens_single": [
+  64,
+  64,
+  64,
+  64,
+  64,
+  64
+ ],
+ "batching_ok": true
+}

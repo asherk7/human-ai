@@ -1,0 +1,5 @@
+layer,test,k,n,p,lo,hi
+27,"role below default, our axis",0,10,0.0,0.0,0.27753279986288926
+27,"AI above human, recipe axis",17,40,0.425,0.28509392559950375,0.5780493145800892
+33,"role below default, our axis",7,10,0.7,0.39677814746114526,0.892208732593699
+33,"AI above human, recipe axis",29,40,0.725,0.5716504419378943,0.8389198375233267

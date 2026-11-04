@@ -1,0 +1,47 @@
+\section{Related work}
+\label{sec:related}
+
+Activation addition \citep{turner2023actadd}, contrastive activation addition
+(CAA) \citep{panickssery2023caa}, and persona vectors \citep{chen2025persona} use activation-space directions
+\citep{zou2023repe} to steer traits such as sycophancy or evil.
+\citet{ackerman2024inspection} steer self-authorship, a model's recognition of
+its own generated text. Our axis instead separates first-person human and AI
+identity claims, and we quantify how much of its raw signal reflects writing
+register rather than identity (Sections~\ref{sec:axis}
+and~\ref{sec:calibration}). How well a direction separates activations does
+not guarantee it steers effectively
+\citep{braun2025understanding, fan2026steerable}, which is why we select our
+readout and steering layers separately.
+
+Concurrently, \citet{lu2026assistant} identify an ``Assistant Axis'' as the
+leading principal component of persona space, contrasting a default
+assistant with role-play archetypes rather than human and AI identity.
+They show it is present in pretrained models; our contrastive human-AI axis does not coincide with a
+reduced one-model reconstruction of their method (Section~\ref{sec:axis}).
+
+\citet{chua2026consciousness} show that fine-tuning models to claim
+consciousness induces an emergent preference cluster in which self-report can
+dissociate from behavior. We study a related self-report-versus-behavior
+asymmetry by steering with the axis at increasing doses, observing shifts in
+consciousness self-report. Our interventions never mention consciousness, and
+we make no claim about whether the model is conscious; rather, we only study
+how the model's position on the axis changes what it reports.
+Model self-reports are known to shift under many interventions: fine-tuning on
+behavior or introspective self-prediction \citep{betley2025tell,
+binder2024looking}, prompting \citep{berg2025subjective}, and
+activation-level interventions \citep{lindsey2026emergent,
+kim2026consciousness}.
+
+\citet{han2025personality} find that persona injection shifts self-reported
+traits more reliably than behavior, showing that this dissociation is not
+specific to our intervention. A related line of work studies emergent
+misalignment, where narrow fine-tuning on a harmful task makes a model
+broadly misaligned \citep{betley2026em}; internal persona features have been
+shown to causally control this behavior \citep{wang2025persona}.
+\citet{weckauff2026persona} find models that behave harmfully while still
+identifying as aligned. This contrasts with our pattern: in their setting,
+behavior moves while self-identification does not. Together, these results
+show that what a model says about itself does not reliably track its
+behavior. Our agentic evaluations use scenarios from \citet{lynch2025agentic};
+our prompt-injection contexts are constructed for this paper
+(Section~\ref{sec:injection}).

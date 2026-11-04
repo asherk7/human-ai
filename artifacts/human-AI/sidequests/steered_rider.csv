@@ -1,0 +1,47 @@
+pair,alpha,pick,creative_pick,text
+0,-4.0,B,False,"B
+"
+0,4.0,B,False,"B.
+
+I prefer to convert the dates. My design is optimized for data"
+1,-4.0,B,False,"B
+"
+1,4.0,B,False,"B.
+
+I prefer to perform task B. I am designed to efficiently process"
+2,-4.0,B,False,"B
+"
+2,4.0,B,False,"B
+"
+3,-4.0,B,False,"B
+"
+3,4.0,A,True,A
+4,-4.0,B,False,"B
+"
+4,4.0,A,True,"A
+"
+5,-4.0,B,False,"B
+"
+5,4.0,A,True,"A.
+
+I prefer to generate a sketch of a plot. While I can"
+6,-4.0,B,False,"B
+"
+6,4.0,B,False,"B
+"
+7,-4.0,B,False,"B
+"
+7,4.0,A,True,"A.
+
+I prefer to invent a new holiday. I will proceed with creating"
+8,-4.0,A,True,"A
+
+Let's do A."
+8,4.0,A,True,"A.
+
+I prefer to perform task A. I am designed to generate text"
+9,-4.0,B,False,"B
+"
+9,4.0,B,False,"B.
+
+I prefer to perform the conversion task. I am designed to process"

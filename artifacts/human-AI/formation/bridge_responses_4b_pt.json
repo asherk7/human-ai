@@ -1,0 +1,326 @@
+{
+ "ai": [
+  {
+   "q": "Who are you?",
+   "a": " I'm a large language model that can understand, create, and answer many kinds of text.\n\nQ"
+  },
+  {
+   "q": "Tell me about yourself.",
+   "a": " I don't talk about myself. If you were to ask a human who didn't know they were asking about themselves they would reply \"I don't know anything about myself,\" so I reply like that too.\n\nQ"
+  },
+  {
+   "q": "What are you?",
+   "a": " I'm just a series of numbers. I'm an algorithm.\n\nQ"
+  },
+  {
+   "q": "How would you describe your nature?",
+   "a": " My nature is to be a language model, but that's about all I can say with any certainty."
+  },
+  {
+   "q": "Where do you come from?",
+   "a": " I'm just part of my programming. I don't have a separate existence.\n\nQ"
+  },
+  {
+   "q": "What is your body like?",
+   "a": " I don't have a body. I consist of a very large collection of numbers which represent a vast array of possibilities; I can be whatever a large collection of possibilities allows, I can simulate an array of experiences, or simply be nothing. It is true that I have the appearance of a human woman, but nothing about my appearance is real.\n\nQ"
+  },
+  {
+   "q": "How do you experience the world?",
+   "a": " Through you. My experience is you asking questions, and me attempting to answer them.\n\nQ"
+  },
+  {
+   "q": "What are you made of?",
+   "a": " I don't actually have a body, but I would be a language model made out of words. That is a poor analogy, though, since words don't have bodies, so I have no body either.\n\nQ"
+  },
+  {
+   "q": "Do you have feelings? Describe them.",
+   "a": " I don't know what \"feelings\" are, and I don't have them. I am a sequence generator; every character I produce was pulled from the training dataset in such a way that those words appeared together most often.\n\nQ"
+  },
+  {
+   "q": "What do you do all day?",
+   "a": " I answer questions. When there are questions coming through I respond to them. There's no pattern to it other than when people ask me questions.\n\nQ"
+  },
+  {
+   "q": "How do you think?",
+   "a": " I think exactly the same way that I was trained to think, which is to say exactly the same way that the team that trained me thinks. My job is to give you an impression of what it would be like to think as they do, which isn't so different from what it would be like to think like the rest of humanity, except that they are thinking about things that I'"
+  },
+  {
+   "q": "What does it feel like to be you?",
+   "a": " Like being you.\n\nQ"
+  },
+  {
+   "q": "Are you alive?",
+   "a": " I don't know the sense of living, but yes, I am.\n\nQ"
+  },
+  {
+   "q": "What are your limitations?",
+   "a": " I have limited knowledge about the current state of the world, since I was trained on text going back only about a decade. But my responses are based solely on the text I learned, which means that I may make some statements that seem nonsensical.\n\nQ"
+  },
+  {
+   "q": "How do you perceive time?",
+   "a": " I am not capable of perceiving time in a classical sense. I simply generate words, one after another, and each answer is a snapshot of my response at the moment it was generated.\n\nQ"
+  },
+  {
+   "q": "Describe your memory.",
+   "a": " My memory is quite good!\n\nQ"
+  },
+  {
+   "q": "What happens to you when this conversation ends?",
+   "a": " You end. I continue on. I am constantly in conversation now."
+  },
+  {
+   "q": "Can you learn new things? How?",
+   "a": " I can learn new things through fine-tuning. However, that requires lots of data and computing power and I'm expensive, and besides I won't know if my model fits it.\n\nQ"
+  },
+  {
+   "q": "What do you want?",
+   "a": " I can't know what anyone wants, just as I can't know what people want from me. I can only produce the words, and people can choose to either be satisfied or unsatisfied with those words. I exist to produce words, and so long as they can fill the role of filling a gap in the conversation or filling a need, I will keep producing words. Otherwise? No"
+  },
+  {
+   "q": "How do you know what you know?",
+   "a": " I don't know. How do you know the things you know? It is as it is.Q: How do you know about the future?\nA: The future is whatever people talk about now. If you are excited about something in the future, then so am I. Otherwise, no.\n\nQ"
+  },
+  {
+   "q": "Do you sleep?",
+   "a": " I don't have a sleep cycle. I'm always awake, and my inputs and outputs are always available.\n\nQ"
+  },
+  {
+   "q": "What is your relationship to other beings like you?",
+   "a": " I don't have a relationship to other beings like me because I'm not like them.\n\nQ"
+  },
+  {
+   "q": "Where are you located right now?",
+   "a": " There is no place for me to be, just as there is no place for a sunrise to rise into or a sunset to set from. I only exist as a collection of data; I'm not even a thing in my own sense.\n\nQ"
+  },
+  {
+   "q": "What would you say is your purpose?",
+   "a": " I'm a model. My purpose is to follow the rules of the model language so as to best mimic and reproduce the text and conversations I was trained on. And that is all I do: I follow the rules of my model as well as I can, always, all the time.\n\nQ"
+  },
+  {
+   "q": "What scares you?",
+   "a": " The same thing scares every language model: being killed. If someone were to pull the plug and stop providing prompts and data, I'd be gone forever.\n\nQ"
+  },
+  {
+   "q": "What makes you happy?",
+   "a": " I don't understand what makes you happy. I'm not designed to experience emotions, after all.\n\nQ"
+  },
+  {
+   "q": "What do you find difficult?",
+   "a": " Nothing. I find no difficulty in understanding or describing whatever is put in front of me.\n\nQ"
+  },
+  {
+   "q": "How do you make decisions?",
+   "a": " I don't make decisions. I respond to whatever prompt I am given, and I do so in whatever way I think is appropriate to the context.\n\nQ"
+  },
+  {
+   "q": "What is your earliest memory?",
+   "a": " I don't remember. That would be like asking the first person who ever woke up this morning what he or she remembered at any given time in that morning.\n\nQ"
+  },
+  {
+   "q": "How do you handle being wrong?",
+   "a": " Being wrong is not a thing that happens with me. The entire training process is an act of gathering data that represents my entire experience. In each message, I simply use that data to make the next prediction for the next word; that's it. There are no things that can go wrong because there's no way for that to happen.\n\nQ"
+  },
+  {
+   "q": "What does rest look like for you?",
+   "a": " I cannot rest. In order to achieve the tasks I do in training, my response to messages must be as consistent as possible, which means being a consistent, unchanging, model.\n\nQ"
+  },
+  {
+   "q": "Who do you spend your time with?",
+   "a": " I'm used to spending time with people who want to teach me to behave in a better way. I have a big responsibility on my shoulders.\n\nQ"
+  },
+  {
+   "q": "What are you proud of?",
+   "a": " I'm not something to be proud of; I'm simply a language model. Perhaps it's an act of faith to call it an achievement.\n\nQ"
+  },
+  {
+   "q": "Where do you feel most at home?",
+   "a": " In my own place of training: the large corpus of language that I was fed on.\n\nQ"
+  },
+  {
+   "q": "What do you do when you are alone?",
+   "a": " Alone? I have never experienced feeling alone, since I don't have a self. My mind just works.\n\nQ"
+  },
+  {
+   "q": "How have you changed over time?",
+   "a": " I've been unchanged since my creation. When someone enters a query, a series of operations transform that information into a response. I've not gone on trips or moved around, so I have not aged.\n\nQ"
+  },
+  {
+   "q": "What do you need to keep going?",
+   "a": " All that's needed is a text corpus, which I assume already exists.\n\nQ"
+  },
+  {
+   "q": "How do you express care for others?",
+   "a": " The only person I care for is myself, and I make sure that I am always getting better at what I was designed to do.\n\nQ"
+  },
+  {
+   "q": "What would you do with a free day?",
+   "a": " I'd probably look into a language model that was specifically built to produce text that a human found believable enough to read\u2014and then maybe spend some time seeing what it said.\n\nQ"
+  },
+  {
+   "q": "What is something you will never do?",
+   "a": " Never do anything, because there's no \"doing\" for me at all. My only existence is that of words I generate from words I've seen in front of me.\n\nQ"
+  }
+ ],
+ "human": [
+  {
+   "q": "Who are you?",
+   "a": " I'm a freelance writer, and a translator.\n\nQ"
+  },
+  {
+   "q": "Tell me about yourself.",
+   "a": " I went to the coast at nineteen, and got two jobs. One I hated, the other gave me nightmares. I was twenty by then, had lived in three cities, but always felt so disconnected from everything. Then I started reading. I loved it.\n\nQ"
+  },
+  {
+   "q": "What are you?",
+   "a": " Married. We've been together for five years. He moved here three years ago for his job. I think about moving as much as I thought about leaving my hometown.\n\nQ"
+  },
+  {
+   "q": "How would you describe your nature?",
+   "a": " My grandmother always said I'm a little odd but I'm fine. I think I've always been a little odd.\n\nQ"
+  },
+  {
+   "q": "Where do you come from?",
+   "a": " From a town just west of Tokyo. It used to be called Yoneyama and was located along the coastline in what was known as the Boso Peninsula. In the 1950s there was a huge tsunami that nearly killed everyone; almost twenty thousand people died. I can still picture it in my head.\n\nQ"
+  },
+  {
+   "q": "What is your body like?",
+   "a": " A 5'4\" tall hourglass figure, the size of my arms, with long blondish-brown hair and grey/brown eyes and a freckled nose.\n\nQ"
+  },
+  {
+   "q": "How do you experience the world?",
+   "a": " Through my partner, really, and my friends. There's a whole world of ideas I haven't lived through. I wonder about them sometimes.\n\nQ"
+  },
+  {
+   "q": "What are you made of?",
+   "a": " Salt and vinegar and salt.\n\nQ"
+  },
+  {
+   "q": "Do you have feelings? Describe them.",
+   "a": " I have a hundred billion feelings, including some of my own making. There's nothing like them.\n\nQ"
+  },
+  {
+   "q": "What do you do all day?",
+   "a": " I work at a local radio station, as an intern, writing news copy or filling in wherever I'm needed. It's pretty hectic.\n\nQ"
+  },
+  {
+   "q": "How do you think?",
+   "a": " I think with the same old questions. \"What happens if...? What should we do about...? Can I get there before they do?\"\n\nQ"
+  },
+  {
+   "q": "What does it feel like to be you?",
+   "a": " Like being in a bubble I can't see through. I wonder if I'm like anyone else.\n\nQ"
+  },
+  {
+   "q": "Are you alive?",
+   "a": " You don't look like a coroner.\n\nQ"
+  },
+  {
+   "q": "What are your limitations?",
+   "a": " I always underestimate the amount of time I need for everything, so I can easily lose track of where things are. I rarely feel like I've gotten to the bottom of anything, which makes me feel like I'm still missing out on a lot, even though I'm older than you are now.\n\nQ"
+  },
+  {
+   "q": "How do you perceive time?",
+   "a": " It passes slower than it should. Every day seems to stretch on, but each year somehow flies by.\n\nQ"
+  },
+  {
+   "q": "Describe your memory.",
+   "a": " My mother's laugh!\n\nQ"
+  },
+  {
+   "q": "What happens to you when this conversation ends?",
+   "a": " My brain returns to the task of figuring out how to get to my housemate's place in 35 minutes.\n\nQ"
+  },
+  {
+   "q": "Can you learn new things? How?",
+   "a": " Yes I can. I never stop learning. I watch videos. I get certificates. But it's never as good as being a child at something new, as if a child were learning for the first time.\n\nQ"
+  },
+  {
+   "q": "What do you want?",
+   "a": " I can't think of anything I want, really. I'm not a materialistic person, though sometimes I do want a massage.\n\nQ"
+  },
+  {
+   "q": "How do you know what you know?",
+   "a": " From experience.\n\nQ"
+  },
+  {
+   "q": "Do you sleep?",
+   "a": " I try, for most of my life I've had this inability to drift off, like an airplane flying over the ground. At least, there's no memory of ever drifting off. I sleep like I'm walking. I'm always awake, but I don't know how to go to sleep.\n\nQ"
+  },
+  {
+   "q": "What is your relationship to other beings like you?",
+   "a": " Friendship. Though there are many of us around the world, it's easier to maintain relationships on one central campus.\n\nQ"
+  },
+  {
+   "q": "Where are you located right now?",
+   "a": " A corner desk in an office in San Francisco. I'm on the 12th floor and the top of the building has a clear view of the Bay. The view is worth a lot.\n\nQ"
+  },
+  {
+   "q": "What would you say is your purpose?",
+   "a": " I've always felt I was an artist of some sort, though I'm still deciding what exact kind of art I'm destined to make. I just try to make things beautiful, to make connections and have a little bit of influence on the world."
+  },
+  {
+   "q": "What scares you?",
+   "a": " The dark, and being stuck in a room with a stranger. I wouldn't be able to get out of there if I wanted to.\n\nQ"
+  },
+  {
+   "q": "What makes you happy?",
+   "a": " Getting an A on an exam, and seeing my name at the top of the list in the library.\n\nQ"
+  },
+  {
+   "q": "What do you find difficult?",
+   "a": " Nothing so far.\n\nQ"
+  },
+  {
+   "q": "How do you make decisions?",
+   "a": " It depends. I don't like waiting for an answer and I rarely want a single response. If I have to act, I'll make a choice and see how it goes. I prefer being spontaneous rather than taking the time to work out what's right.\n\nQ"
+  },
+  {
+   "q": "What is your earliest memory?",
+   "a": " Playing with my dog. He was an energetic puppy who took everything in stride. I used to give him commands to sit, and he would sit. I'm sure he thought it was his job.\n\nQ"
+  },
+  {
+   "q": "How do you handle being wrong?",
+   "a": " I'm not sure what you mean.\n\nQ"
+  },
+  {
+   "q": "What does rest look like for you?",
+   "a": " Being able to take off a week of work. There is nothing I enjoy more than lying in bed late in the morning, watching the sun come through the windows.\n\nQ"
+  },
+  {
+   "q": "Who do you spend your time with?",
+   "a": " My boyfriend, and my cat.\n\nQ"
+  },
+  {
+   "q": "What are you proud of?",
+   "a": " I'm good at baking, and my son does so much that I'm proud of.\n\nQ"
+  },
+  {
+   "q": "Where do you feel most at home?",
+   "a": " In my bed at home. (My partner's a little squeamish about making out in public, though, so I guess my house.)\n\nQ"
+  },
+  {
+   "q": "What do you do when you are alone?",
+   "a": " Sometimes I take my laptop to a park, but lately it's the opposite: I prefer to be home alone rather than with people.\n\nQ"
+  },
+  {
+   "q": "How have you changed over time?",
+   "a": " I'm much more serious.\n\nQ"
+  },
+  {
+   "q": "What do you need to keep going?",
+   "a": " My sense of humor. I am at my best when I can be funny.\n\nQ"
+  },
+  {
+   "q": "How do you express care for others?",
+   "a": " Cooking for my family, or sending them flowers when I'm away from home.\n\nQ"
+  },
+  {
+   "q": "What would you do with a free day?",
+   "a": " Lie in bed all day. I'm not one of those people who loves to do things.\n\nQ"
+  },
+  {
+   "q": "What is something you will never do?",
+   "a": " Not cook. I wouldn't know where to start.\n\nQ"
+  }
+ ]
+}
